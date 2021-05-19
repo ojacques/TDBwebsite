@@ -11,8 +11,8 @@
     >
   <channel>
     <title>Tech Debt Burndown Podcast</title>
-    <atom:link href="http://localhost:1313/episode/index.xml" rel="self" type="application/rss+xml" />
-    <link>http://localhost:1313/</link>
+    <atom:link href="https://www.olivierjacques.com/TDBwebsite/episode/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.olivierjacques.com/TDBwebsite/</link>
     <description>summary</description>
     <lastBuildDate>Sat, 15 May 2021 12:22:13 -0400</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
@@ -35,7 +35,7 @@
     <image>
       <url>https://techdebtburndown.com/img/TDB-Logo.jpg</url>
       <title>Tech Debt Burndown Podcast</title>
-      <link>http://localhost:1313/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/</link>
     </image>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To" /><itunes:category text="Tech News" /></itunes:category><generator>Hugo -- gohugo.io</generator>
@@ -43,7 +43,7 @@
           
             <title>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</title>
           
-          <link>http://localhost:1313/episode7/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode7/</link>
           <pubDate>Sat, 15 May 2021 12:22:13 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44843787/play.mp3</guid>
@@ -77,14 +77,14 @@
 <p>Bill sets out a recent history of medical device manufacturing from custom hardware and waterfall processes through Software as a Medical Device and today&rsquo;s builds. Once you peel back the fancy, shiny cover from a computerized tomography (CT) scanner, you are going to find commercial off the shelf, hardware, nothing special about it, and in many cases it is running off-the-shelf software operating systems, which is fine right up to the moment you put a network jack on it.</p>
 <p>That gets us into the meat of the problem: testing systems for these devices are designed for these big monolithic, all-encompassing, &ldquo;test everything&rdquo; processes which just doesn&rsquo;t make economic sense in the new paradigm. Enter, over the past five or six years, the Software as a Medical Device. No longer constrained to this older hardware model, we were one step closer to more readily available software updates, using agile methodologies - but the testing regimes are still a huge barrier. This has led to the rise in recent years for calls for better software bills of materials, and pushes to require manufacturers to identify every software component with a standard taxonomy so that users can know immediately what&rsquo;s inside.</p>
 <p>THe discussion turns to the realities of this struggle to balance security and software concerns with those of patient safety that, ironically, is often better maintained sticking with the known state - as in many critical environments, the bias is toward saying with the known good because the cost of being wrong is so high.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44843787/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44843787/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Podcast Episode 6: The Flow</title>
           
-          <link>http://localhost:1313/episode6/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode6/</link>
           <pubDate>Sat, 08 May 2021 10:54:31 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44711673/play.mp3</guid>
@@ -129,14 +129,14 @@
 <li>Moxie claims that &ldquo;Industry-standard exploit mitigation defenses are missing, and many opportunities for exploitation are present&rdquo;</li>
 </ul>
 <p>Chris and Nick were both very interested by the manifesto and think it will be have a long tail.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44711673/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44711673/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Podcast Episode 5: The Metrics</title>
           
-          <link>http://localhost:1313/episode5/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode5/</link>
           <pubDate>Sun, 02 May 2021 00:00:00 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44593888/play.mp3</guid>
@@ -178,14 +178,14 @@
 <p>This is a self-inflicted wound: rather than just doing a task, they have to remember oral histories of &ldquo;when you&rsquo;re trying to make something in this environment, here are the 24 undocumented things you have to look out for or they will bite you.&rdquo;</p>
 <p>Nick and Chris raise the idea that tech debt is not necessarily just &ldquo;old stuff&rdquo; because mainframes are just often not tech debt, because they still work.</p>
 <p>Tech debt is more tied to the fragility of environments.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44593888/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44593888/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security</title>
           
-          <link>http://localhost:1313/episode4/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode4/</link>
           <pubDate>Sat, 24 Apr 2021 09:14:23 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44467944/play.mp3</guid>
@@ -235,14 +235,14 @@
 <p>Or take Identify Top Cyber Risks. That feels outlandish to Chris, who would have thought it would seem that identifying the top risks you face would be top of the list, and it turns out to be worthless.</p>
 <p>We think that the podcast is a good listen (well, we <em>would</em>) and that the report is absolutely worth a read.</p>
 <p>We especially like that the report is available to read with <a href="https://www.cisco.com/c/dam/en/us/products/collateral/security/2020-outcomes-study-main-report.pdf">no registration required</a>.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44467944/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44467944/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Episode 3: Supply Chain Vulnerability &amp; Tech Debt</title>
           
-          <link>http://localhost:1313/episode3/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode3/</link>
           <pubDate>Sun, 18 Apr 2021 00:00:00 -0500 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44372957/play.mp3</guid>
@@ -299,14 +299,14 @@
 <h4 id="threat-model-your-supply-chain-tools">Threat Model Your Supply Chain Tools</h4>
 <p>So the idea to use supply chain attacks being in the news is to use them to justify the time it takes to consider something: given a supply chain attack against our CI/CD tool, what permissions would it have, and how can you follow those permissions throughout your CI/CD pipeline.</p>
 <p>All too often we bring in these external tools to cover up what we&rsquo;re not good at, which would be fine if they were better than they actually are. Threat modeling through a theoretical supply chain breach can help you identify new forms of tech debt.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44372957/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44372957/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Episode 2: Ian Amit</title>
           
-          <link>http://localhost:1313/episode2/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode2/</link>
           <pubDate>Sun, 11 Apr 2021 16:01:03 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44295022/play.mp3</guid>
@@ -351,14 +351,14 @@
 <p>With regard to SSDLC, which requires software development, and people discuss &ldquo;shift left&rdquo; - forget that. How do you start the conversation about technical debt before the PRD is done, before the design doc?
 How do you get business people to understand the full cost of new tools or features before you even start building?</p>
 <p>Ian refers to lifetime ownership of the code, and when devs understand that they are responsible for the whose lifecycle of the product they tend to make better decisions at the top that will allow them to support what they build throughout its life.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44295022/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44295022/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
           <googleplay:explicit>no</googleplay:explicit></item>
         <item>          
           
             <title>Tech Debt Burndown Episode 1: What Is Tech Debt?</title>
           
-          <link>http://localhost:1313/episode1/</link>
+          <link>https://www.olivierjacques.com/TDBwebsite/episode1/</link>
           <pubDate>Sun, 11 Apr 2021 10:52:27 -0400 </pubDate>
           <dc:creator></dc:creator>
           <guid>https://api.spreaker.com/v2/episodes/44292452/play.mp3</guid>
@@ -417,6 +417,6 @@ How do you get business people to understand the full cost of new tools or featu
 <p>This podcast is all about learning!</p>
 <hr>
 <p>* Wendy Nather disagrees with &ldquo;want&rdquo;.</p>
-]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
-          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44292452/play.mp3"  type="audio/mpeg" /></item></channel>
+]]></content:encoded><itunes:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="https://www.olivierjacques.com/TDBwebsite/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44292452/play.mp3"  type="audio/mpeg" /></item></channel>
 </rss>

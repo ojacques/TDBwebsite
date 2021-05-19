@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hosts of Tech Debt Burndown on Tech Debt Burndown Podcast</title>
-    <link>http://localhost:1313/host/</link>
+    <link>https://www.olivierjacques.com/TDBwebsite/host/</link>
     <description>Recent content in Hosts of Tech Debt Burndown on Tech Debt Burndown Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Mar 2021 15:19:33 +0000</lastBuildDate><atom:link href="http://localhost:1313/host/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 15:19:33 +0000</lastBuildDate><atom:link href="https://www.olivierjacques.com/TDBwebsite/host/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chris Swan</title>
-      <link>http://localhost:1313/host/cswan/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/host/cswan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/host/cswan/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/host/cswan/</guid>
       <description>Chris is a frequent speaker on topics such as serverless, DevOps, cloud, containers, security, networking and the Internet of Things. He’s also a cloud editor for InfoQ and a contributor to open source projects such as Docker, CoreOS and DXC’s Online DevOps Dojo.</description>
     </item>
     
     <item>
       <title>Nick Selby</title>
-      <link>http://localhost:1313/host/nselby/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/host/nselby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/host/nselby/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/host/nselby/</guid>
       <description>Nick is Chief Security Officer at a financial technology firm, and was formerly an NYPD Intelligence Bureau apparatchik. He is co-author of many books, including Cyber Attack Survival Manual; In Context: Understanding Police Killings of Unarmed Civilians and Blackhatonomics: An Inside Look at the Economics of Cybercrime.</description>
     </item>
     

@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Debt Burndown Podcast</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.olivierjacques.com/TDBwebsite/</link>
     <description>Recent content on Tech Debt Burndown Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 16:37:22 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 16:37:22 -0400</lastBuildDate><atom:link href="https://www.olivierjacques.com/TDBwebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>http://localhost:1313/guide/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guide/</link>
       <pubDate>Sun, 16 May 2021 14:51:46 +0100</pubDate>
       
-      <guid>http://localhost:1313/guide/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guide/</guid>
       <description>Thanks for agreeing to be on the Tech Debt Burndown podcast. This page is here to let you know what to expect from the time we&amp;rsquo;ll spend together recording.
 Nick will send out an invite to Zencastr, which is the platform that we use for recording. It&amp;rsquo;s entirely browser based, so you&amp;rsquo;ll need to provide permission to access you microphone when starting. Zencastr also provides video so that we can see each other whilst recording, but we only use the audio.</description>
     </item>
     
     <item>
       <title>Olivier Jacques</title>
-      <link>http://localhost:1313/guest/olivier/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/olivier/</link>
       <pubDate>Sat, 15 May 2021 16:37:22 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/olivier/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/olivier/</guid>
       <description>A technology enthusiast and DevOps transformation principal at DXC Technology, Olivier Jacques specializes in DevOps, software engineering, inner source and open source practices. He created DXC&amp;rsquo;s DevOps dojos, events and practices that combine training with hands-on labs, gamification with badges, and guidance from DevOps coaches. Olivier is a frequent speaker at DevOps and software engineering conferences.</description>
     </item>
     
     <item>
       <title>Eoin Woods</title>
-      <link>http://localhost:1313/guest/eoin/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/eoin/</link>
       <pubDate>Sat, 15 May 2021 16:11:55 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/eoin/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/eoin/</guid>
       <description>Eoin Woods has worked in software engineering of some sort for 20 years. He&amp;rsquo;s been lucky enough to work for a number of great companies during that time, including Groupe Bull, Sybase, InterTrust, Zuhlke, BGI and UBS. He has also been an independent consultant, which was another good experience.
 Today, Eoin is the CTO of Endava, the fast growing software engineering services company. Endava builds software for other people, with most of their projects being in the areas of digital and agile transformation and business and IT automation.</description>
     </item>
     
     <item>
       <title>Charity Majors</title>
-      <link>http://localhost:1313/guest/charity/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/charity/</link>
       <pubDate>Sat, 15 May 2021 15:52:45 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/charity/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/charity/</guid>
       <description>Charity Majors is an operations and database engineer and sometimes engineering manager. “Right now I am the CEO and cofounder of Honeycomb, where we build observability for distributed systems. (“Monitoring” doesn’t have to be a dirty word; give us a try.)
 “Until recently I was a production engineering manager at Facebook. I spent 3.5 years working on Parse (both pre and post-acquisition by FB). I also spent several years at Linden Lab, working on the infrastructure and databases that power Second Life.</description>
     </item>
     
     <item>
       <title>Bill Pelletier</title>
-      <link>http://localhost:1313/guest/billp/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/billp/</link>
       <pubDate>Sat, 15 May 2021 15:34:22 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/billp/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/billp/</guid>
       <description>Bill Pelletier is currently the Enterprise Security Architect for a large healthcare payer in New England, covering all aspects of security for their on-prem, cloud, and hybrid architectures. Previous roles in his career include heading up Product and Strategy at Scope Security, a startup in the Healthcare Delivery Organization Managed Security space – and as a Product Security Leader at GE Healthcare, working with CT, PET, Mammography, and X-Ray engineering teams in ensuring that new medical devices were being made more secure by design as well as in ongoing operations.</description>
     </item>
     
     <item>
       <title>Kenn White</title>
-      <link>http://localhost:1313/guest/kenn/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/kenn/</link>
       <pubDate>Sat, 15 May 2021 15:27:25 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/kenn/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/kenn/</guid>
       <description>Kenneth White is a security engineer whose work focuses on networks and global systems. He is co-founder and Director of the Open Crypto Audit Project and led formal security reviews on TrueCrypt and OpenSSL. He currently leads applied encryption engineering in MongoDB&amp;rsquo;s global product group. He has directed R&amp;amp;D and security Ops in organizations ranging from startups to nonprofits to defense agencies to the Fortune 50. His work on applied signal analysis has been published in the Proceedings of the National Academy of Sciences.</description>
     </item>
     
     <item>
       <title>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</title>
-      <link>http://localhost:1313/episode7/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode7/</link>
       <pubDate>Sat, 15 May 2021 12:22:13 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode7/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode7/</guid>
       <description>What Do Enabling-Teams Look Like, and Can We Avoid Tech Debt in the Medical Device Industry?  Recording date: May 3 and 8, 2021
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 &amp;lsquo;There were monkeys that were nesting in the satellite dish.&amp;rsquo; - Kenn In a private Twitter chat, Nick and Kenn White, who leads applied encryption engineering in MongoDB, were discussing tech debt burndown, and Kenn mentioned that Mongo maintains an entire team to remove distractions and handle barriers to engineer happiness.</description>
@@ -77,19 +77,19 @@ Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or w
     
     <item>
       <title>Discussions</title>
-      <link>http://localhost:1313/discussions/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/discussions/</link>
       <pubDate>Mon, 10 May 2021 10:34:30 +0100</pubDate>
       
-      <guid>http://localhost:1313/discussions/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/discussions/</guid>
       <description>If you&amp;rsquo;d like to chat about episodes, suggest guests, or ask questions about Tech Debt then please join us on GitHub Discussions</description>
     </item>
     
     <item>
       <title>Tech Debt Burndown Podcast Episode 6: The Flow</title>
-      <link>http://localhost:1313/episode6/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode6/</link>
       <pubDate>Sat, 08 May 2021 10:54:31 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode6/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode6/</guid>
       <description>What Does Your Pipeline Look Like?  Recording date: May 1, 2021
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 &amp;lsquo;People often escape from a role before decisions they have made have a chance to catch up to them.&amp;rsquo; - Chris Let&amp;rsquo;s talk about pipeline. Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements.</description>
@@ -97,10 +97,10 @@ Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or w
     
     <item>
       <title>Tech Debt Burndown Podcast Episode 5: The Metrics</title>
-      <link>http://localhost:1313/episode5/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode5/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode5/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode5/</guid>
       <description>How Do You Measure Tech Debt? What Are The Metrics That Work? Recording date: March, 2021
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 &amp;lsquo;I think it&amp;rsquo;s really less about wasted time, and more about getting into flow state: is your tech debt preventing flow from happening?&amp;rsquo; - Chris How do you measure technical debt? What are the metrics you use?
@@ -109,19 +109,19 @@ Chris hasn&amp;rsquo;t found the magic formula.</description>
     
     <item>
       <title>Trusting The Chain: How Third Part Risk Really Affects Our Trustworthiness </title>
-      <link>http://localhost:1313/blog/blogpost1/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/blog/blogpost1/</link>
       <pubDate>Mon, 26 Apr 2021 07:07:20 -0400</pubDate>
       
-      <guid>http://localhost:1313/blog/blogpost1/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/blog/blogpost1/</guid>
       <description>Testing</description>
     </item>
     
     <item>
       <title>Tech Debt Burndown Episode 4: Wendy Nather on What Works In Security</title>
-      <link>http://localhost:1313/episode4/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode4/</link>
       <pubDate>Sat, 24 Apr 2021 09:14:23 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode4/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode4/</guid>
       <description>What Works in Security? The Cisco Security Outcomes Study Recording date: December, 2020
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 Chris and Nick welcome their old friend Wendy Nather, Head of Advisory CISOs at Duo Security (now Cisco), to the podcast to discuss her work on the Cisco Security Outcomes Study. Now, technical debt isn&amp;rsquo;t only about security, but they&amp;rsquo;re related - and one of this report&amp;rsquo;s most solid conclusions addresses it specifically.</description>
@@ -129,10 +129,10 @@ Chris and Nick welcome their old friend Wendy Nather, Head of Advisory CISOs at 
     
     <item>
       <title>Tech Debt Burndown Episode 3: Supply Chain Vulnerability &amp; Tech Debt</title>
-      <link>http://localhost:1313/episode3/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode3/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 -0500</pubDate>
       
-      <guid>http://localhost:1313/episode3/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode3/</guid>
       <description>Where do you start looking for tech debt? Recording date: April 17, 2021
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 This is a common question, and Chris and Nick discovered that they do it differently.
@@ -141,10 +141,10 @@ Chris describes how he views tech debt from the perspective of his continuous in
     
     <item>
       <title>Tech Debt Burndown Episode 2: Ian Amit</title>
-      <link>http://localhost:1313/episode2/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode2/</link>
       <pubDate>Sun, 11 Apr 2021 16:01:03 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode2/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode2/</guid>
       <description>&amp;ldquo;You can&amp;rsquo;t kill all the tech debt; you can&amp;rsquo;t stay completely up to date or there won&amp;rsquo;t be a business.&amp;rdquo; -Ian Recording date: February 6, 2021
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 We had a great conversation with Ian about how he runs a rather different kind of information security operation that can be described as a group of companies reporting up to one security organization for strategy, but which each support their own individual needs day to day.</description>
@@ -152,10 +152,10 @@ We had a great conversation with Ian about how he runs a rather different kind o
     
     <item>
       <title>Tech Debt Burndown Episode 1: What Is Tech Debt?</title>
-      <link>http://localhost:1313/episode1/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/episode1/</link>
       <pubDate>Sun, 11 Apr 2021 10:52:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/episode1/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/episode1/</guid>
       <description>What is technical debt? Nick and Chris offer their definitions, despite agreeing there is no right answer. Recording date: December 6, 2020
 Download at Apple Podcasts, Google Podcasts, Spotify, iHeartRadio, Spreaker or wherever you get your podcasts.
 Nick thinks it is the stuff we put off in favor of things we want to do*, while Chris quotes Ward Cunningham and Martin Fowler, summarizing that technical debt is basically the quick and dirty fixes that incur interest payments, and using the concepts of tech debt to describe problems faced over time.</description>
@@ -163,46 +163,46 @@ Nick thinks it is the stuff we put off in favor of things we want to do*, while 
     
     <item>
       <title>Ian Amit</title>
-      <link>http://localhost:1313/guest/iamit/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/iamit/</link>
       <pubDate>Sun, 11 Apr 2021 09:56:50 -0400</pubDate>
       
-      <guid>http://localhost:1313/guest/iamit/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/iamit/</guid>
       <description>Ian is the Chief Security Officer at Cimpress. He used to be a Senior Manager of Security Engineering at Amazon AWS, and prior to that held leadership positions with ZeroFOX, IOActive, Aladdin, Finjan and Comsec. He currently serves on the Advisory Board for ZeroFOX, Axon Cyber, Panorays and Marshall University. He also serves on the board of directors of BSides Las Vegas as a general director and President. Ian has had the pleasure to talk at the most sought-after conferences in the field such as BlackHat, DefCon, BlueHat, InfoSecurity, and more&amp;hellip; He has been frequently interviewed by leading pring and web magazines and news outlets, speaking about web security, eCrime, and technology (see this pagefor a chronological sampler).</description>
     </item>
     
     <item>
       <title>Wendy Nather</title>
-      <link>http://localhost:1313/guest/wnather/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/guest/wnather/</link>
       <pubDate>Mon, 22 Mar 2021 16:25:52 +0000</pubDate>
       
-      <guid>http://localhost:1313/guest/wnather/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/guest/wnather/</guid>
       <description>Wendy Nather is Head of the Advisory CISO team at Duo Security (now Cisco). She was previously the Research Director at the Retail ISAC, as well as Research Director of the Information Security Practice at independent analyst firm 451 Research. Nather led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), and served as CISO of the Texas Education Agency. She is co-author of The Cloud Security Rules and was listed as one of SC Magazine&amp;rsquo;s Women in IT Security &amp;ldquo;Power Players&amp;rdquo; in 2014, as well as an &amp;ldquo;Influencer&amp;rdquo; in the Reboot Leadership Awards in 2018.</description>
     </item>
     
     <item>
       <title>about us</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/about/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chris Swan</title>
-      <link>http://localhost:1313/host/cswan/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/host/cswan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/host/cswan/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/host/cswan/</guid>
       <description>Chris is a frequent speaker on topics such as serverless, DevOps, cloud, containers, security, networking and the Internet of Things. He’s also a cloud editor for InfoQ and a contributor to open source projects such as Docker, CoreOS and DXC’s Online DevOps Dojo.</description>
     </item>
     
     <item>
       <title>Nick Selby</title>
-      <link>http://localhost:1313/host/nselby/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/host/nselby/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/host/nselby/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/host/nselby/</guid>
       <description>Nick is Chief Security Officer at a financial technology firm, and was formerly an NYPD Intelligence Bureau apparatchik. He is co-author of many books, including Cyber Attack Survival Manual; In Context: Understanding Police Killings of Unarmed Civilians and Blackhatonomics: An Inside Look at the Economics of Cybercrime.</description>
     </item>
     

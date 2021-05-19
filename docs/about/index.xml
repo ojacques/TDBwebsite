@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Tech Debt Burndown Podcast</title>
-    <link>http://localhost:1313/about/</link>
+    <link>https://www.olivierjacques.com/TDBwebsite/about/</link>
     <description>Recent content in Abouts on Tech Debt Burndown Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.olivierjacques.com/TDBwebsite/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about us</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.olivierjacques.com/TDBwebsite/about/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.olivierjacques.com/TDBwebsite/about/</guid>
       <description></description>
     </item>
     

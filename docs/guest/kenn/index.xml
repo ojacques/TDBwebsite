@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kenn White on Tech Debt Burndown Podcast</title>
-    <link>http://localhost:1313/guest/kenn/</link>
+    <link>https://www.olivierjacques.com/TDBwebsite/guest/kenn/</link>
     <description>Recent content in Kenn White on Tech Debt Burndown Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 15:27:25 -0400</lastBuildDate><atom:link href="http://localhost:1313/guest/kenn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 15:27:25 -0400</lastBuildDate><atom:link href="https://www.olivierjacques.com/TDBwebsite/guest/kenn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

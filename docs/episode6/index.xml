@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Debt Burndown Podcast Episode 6: The Flow on Tech Debt Burndown Podcast</title>
-    <link>http://localhost:1313/episode6/</link>
+    <link>https://www.olivierjacques.com/TDBwebsite/episode6/</link>
     <description>Recent content in Tech Debt Burndown Podcast Episode 6: The Flow on Tech Debt Burndown Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 May 2021 10:54:31 -0400</lastBuildDate><atom:link href="http://localhost:1313/episode6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 10:54:31 -0400</lastBuildDate><atom:link href="https://www.olivierjacques.com/TDBwebsite/episode6/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
