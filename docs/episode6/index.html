@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html itemscope lang="en-us">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies.">
+
+<meta name="generator" content="Hugo 0.83.1" />
+
+<meta property="og:title" content="Tech Debt Burndown Podcast Episode 6: The Flow" />
+<meta name="twitter:title" content="Tech Debt Burndown Podcast Episode 6: The Flow"/>
+<meta itemprop="name" content="Tech Debt Burndown Podcast Episode 6: The Flow">
+<meta property="article:published_time" content="2021-05-08T10:54:31-04:00" />
+<meta property="article:modified_time" content="2021-05-08T10:54:31-04:00" />
+<meta property="og:updated_time" content="2021-05-08T10:54:31-04:00" /><meta property="og:site_name" content="Tech Debt Burndown Podcast" /><meta property="og:description" content="Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies." />
+    <meta name="twitter:description" content="Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies." />
+    <meta itemprop="description" content="Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies."><meta name="twitter:site" content="@TechDebtPodcast"/>
+<meta name="twitter:creator" content="@TechDebtPodcast"/>
+<meta name="twitter:domain" content="techdebtburndown.com"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/episode6/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+        <meta property="og:image" content="http://localhost:1313//img/TDB-Logo.jpg" />
+        <meta name="twitter:image" content="http://localhost:1313//img/TDB-Logo.jpg"/>
+        <meta itemprop="image" content="http://localhost:1313//img/TDB-Logo.jpg" />
+    
+
+
+
+
+<title>Tech Debt Burndown Podcast Episode 6: The Flow</title>
+<link rel="canonical" href="http://localhost:1313/episode6/">
+
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+
+
+
+
+
+
+
+
+
+<link href="http://localhost:1313/css/blue.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
+
+<link href=http://localhost:1313/css/all.css rel="stylesheet">
+<link href=http://localhost:1313/css/mediaelementplayer.min.css rel="stylesheet">
+<style>
+    .mejs__overlay-button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__overlay-loading-bg-img {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__button > button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    </style>
+<link href=http://localhost:1313/css/speed.min.css rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="Tech Debt Burndown Podcast" href="http://localhost:1313/episode/index.xml"/>
+
+</head>
+
+<body lang="">
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand" href="http://localhost:1313/">Tech Debt Burndown Podcast</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbarSupportedContent" class="navbar-collapse collapse">
+      <ul class="navbar-nav mr-auto">
+          
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/about" class="nav-link">
+                    
+                    <span>About</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/discussions" class="nav-link">
+                    
+                    <span>Discussions</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/guest" class="nav-link">
+                    
+                    <span>Guests</span>
+                </a>
+              </li>
+            
+          
+        </ul>
+
+
+      <ul class="navbar-nav ml-auto">
+        
+        
+          <li>
+            <a class = "social-links" href="https://twitter.com/TechDebtPodcast"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+        
+        
+        
+        
+          <li>
+            <a class = "social-links" href="https://github.com/Tech-Debt-Burndown"><i class="fab fa-github-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+      </ul>
+  </div>
+  </div>
+  </nav>
+
+<div class="container middle_container">
+  
+
+  <div class="row">
+    <div class="col">      
+      
+        <h1>Tech Debt Burndown Podcast Episode 6: The Flow</h1>
+      <small>Posted on Saturday, May 8, 2021 
+
+
+</small></div>
+  </div>
+
+  
+    <div class="row">
+          <div class="col-md-3">
+            <img src="http://localhost:1313/img/TDB-Logo.jpg" class="img-fluid episode_image"/>
+          </div>
+          <div class="col-md-8">
+            Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&rsquo;s look at branching strategies.
+          </div>
+        </div>
+    <div class="row">
+          <div class="col-md-12 player_row">
+
+          <audio id="player2" style="width: 100%" controls preload="none">
+            <source src="https://api.spreaker.com/v2/episodes/44711673/play.mp3" type="audio/mp3">
+            </audio>
+          </div>
+        </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Show Notes</h2>
+      <h3 id="what-does-your-pipeline-look-like">What Does Your Pipeline Look Like? </h3>
+<p><strong>Recording date: May 1, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<h4 id="people-often-escape-from-a-role-before-decisions-they-have-made-have-a-chance-to-catch-up-to-them---chris">&lsquo;People often escape from a role before decisions they have made have a chance to catch up to them.&rsquo; - Chris</h4>
+<p>Let&rsquo;s talk about pipeline. Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. But Chris thinks that pipelines themselves can be a place where we accrue tech debt, even at the entry point to those pipelines.</p>
+<p>So, Chris has been looking at branching strategies.</p>
+<p>If you look at open source development, people agree that trunk based strategies are the way to go, so we&rsquo;re taking short terms branches or forks off a trunk, but coming back to it quickly. But engineers from an enterprise background have a range of versions across different customers. This quickly runs to vast differences between versions, and lots of tech debt.</p>
+<p>What suffers? Updates like security patches, and the engineers, who have to work across a multitude of branches as opposed to being on a constant edge of the trunk version, is pure tech debt.</p>
+<p>Nick mentioned that this seems to point back to engineer flow - if your engineers can&rsquo;t get into the groove because they&rsquo;ve got no institutional memory and they have to constantly figure out where they are in order to fix things, they&rsquo;re actually creating tech debt while thy are addressing old tech debt!</p>
+<p>It&rsquo;s interesting to think how we got here, but it&rsquo;s true that, because people move around the industry, people, Chris notes, often leave a role before decisions they have made have a chance to catch up to them. So, decision logging becomes super important. But outside the code itself, the log and commit log that people add are critical pieces of context for the next people.</p>
+<p>All too often, though, they say things like, &ldquo;Merge to master&rdquo; or the dreaded, &ldquo;Fixes&rdquo;.</p>
+<p>After that, the readme and changelogs that go with things should tell a story, but there&rsquo;s a more macro scale look at decisions people make: what were the tradeoffs that people had in mind when they made their decisions? This is absolutely critical to know. Because when we make decisions, thinking we can back out of them&lt; we sometimes find ourselves in architectural cul de sacs.</p>
+<p>The conversation turns to <a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm">Type 1-Type 2 decisions</a> which Jeff Bezos began to discuss back in 1997. Nick gives as an example of what&rsquo;s intended to be a reversible decision the log pipeline that his teams are working on. Chris Mentioned that pipeline engineering may seem to be less worthy work done, but Chris and Nick both feel that pipeline enabling work is among the most important in an organization.</p>
+<p>In carrying on the new tradition of references related to what we&rsquo;re discussing, Chris comes up with two important areas of research: <a href="https://redmonk.com/jgovernor/author/jgovernor/">James Governor</a>&rsquo;s work on RedMonk about <a href="https://redmonk.com/jgovernor/2018/08/06/towards-progressive-delivery/">Progressive Delivery</a>, and Netflix&rsquo;s work on <a href="https://netflixtechblog.com/tagged/chaos-engineering">Chaos Engineering</a>.</p>
+<p>Nick mentioned also the <a href="https://github.com/slsa-framework/slsa">SLSA: Supply-chain Levels for Software Artifacts</a> proposal, which is an amazing project available now on GitHub. The SLSA (pronounced &lsquo;Salsa&quot;) project is &ldquo;inspired&rdquo; by how Google does things (and has been at least updated by at least <a href="https://www.gitmemory.com/MarkLodato">some</a> <a href="https://github.com/kimsterv">people</a> who <a href="https://twitter.com/lorenc_dan">work</a> at Google), and ultimately will have a full set of standards, a catalog of <a href="https://github.com/slsa-framework/slsa-controls">technical controls</a>, and a process for accreditation - but for now it&rsquo;s a diabolically useful set of principles and definitions that are really worth a lot of time.</p>
+<p>One major point of the project is to be able to know and be certain about the provenance of code at every stage of the pipeline - at the very least to be able to attest to the sanctity of code, but also to, say, stop unauthorized people from being able to insert code into codebases (Heloooooo, <a href="https://www.reuters.com/technology/codecov-hackers-breached-hundreds-restricted-customer-sites-sources-2021-04-19/">Codecov Hackers</a>!). Nick and his colleagues have begun to use SLSA as a great way - at a very minimum - to agree on a taxonomy and lexicon, and as milestones on their journey. Chris and Nick agreed that SLSA should be an episode in its own right, hopefully with a guest involved in its management to discuss it (hint, nudge, wink).</p>
+<p>The episode concludes with a pivot to a blog post by Signal&rsquo;s <a href="https://signal.org/blog/cellebrite-vulnerabilities/">Moxie Marlinspike</a> who took on the mobile device forensics company Cellebrite. Cellebrite had earlier claimed it had &ldquo;broken&rdquo; Signal encryption, which was utter balderdash. In the information security community, the document quickly was called the Moxie Manifesto but it should be read as nothing short of a declaration of war against Cellebrite. Cellebrite customers (like law enforcement) are casualties of the war.</p>
+<p>Moxie shot back with what may be mistaken for a lighthearted report but which is both ruthless and credible based on his demonstrated exploitation of a Cellebrite box:</p>
+<ul>
+<li>Cellebrite uses very old software components as it assembles its tools, and has been lax about security patches for years;</li>
+<li>This is very plausible because the threat model faced by a Cellebrite box is one of someone with physical access to the box</li>
+<li>Cellebrite uses unlicensed components, with specific example of Apple Dynamic Link Library files; and</li>
+<li>Moxie claims that &ldquo;Industry-standard exploit mitigation defenses are missing, and many opportunities for exploitation are present&rdquo;</li>
+</ul>
+<p>Chris and Nick were both very interested by the manifesto and think it will be have a long tail.</p>
+
+    </div>
+  </div>
+
+
+
+  
+
+  
+  <div class="row">
+    <div class="col">
+      <h2>Hosts</h2>
+    </div>
+  </div>
+      
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Chris Swan" src="http://localhost:1313/img/host/cswan.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/cswan/">Chris Swan</a> </h2>
+              <p>Chris is a frequent speaker on topics such as serverless, DevOps, cloud, containers, security, networking and the Internet of Things. He’s also a cloud editor for InfoQ and a contributor to open source projects such as Docker, CoreOS and DXC’s Online DevOps Dojo.</p>
+<a href="https://chris.swanz.net/">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/cpswan">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/cpswan">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/chrisswan/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Nick Selby" src="http://localhost:1313/img/host/nselby3.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/nselby/">Nick Selby</a> </h2>
+              <p>Nick is Chief Security Officer at a financial technology firm, and was formerly an NYPD Intelligence Bureau apparatchik. He is co-author of many books, including <a href="https://www.amazon.com/Cyber-Attack-Survival-Manual-Apocalypse/dp/1681886545/ref=sr_1_2">Cyber Attack Survival Manual</a>; <a href="https://www.amazon.com/Context-Understanding-Killings-Unarmed-Civilians/dp/0980181704/ref=sr_1_3?dchild=1&amp;qid=1618257220&amp;">In Context: Understanding Police Killings of Unarmed Civilians</a> and <a href="https://www.amazon.com/Blackhatonomics-Inside-Look-Economics-Cybercrime-ebook/dp/B00AMZZQW0/ref=sr_1_6?dchild=1&amp;qid=1618257220">Blackhatonomics: An Inside Look at the Economics of Cybercrime</a>.</p>
+<a href="https://authory.com/NickSelby">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/fuzztech">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/nselby">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/nickselby/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+
+
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <div id="share"></div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div id="giscus_thread"></div>
+
+<script src="https://giscus.vercel.app/client.js"
+        data-repo="ojacques/TDBwebsite"
+        data-repo-id="368269118"
+        data-category-id="General"
+        data-mapping="pathname"
+        data-theme="light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://giscus.vercel.app/">comments powered by Giscus.</a></noscript>
+<a href="https://giscus.vercel.app/" class="dsq-brlink">comments powered by <span class="logo-disqus">Giscus</span></a>
+
+        </div>
+      </div>
+      
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <nav>
+            <ul class="pagination">
+              
+                <li class="page-item">
+                  <a href="http://localhost:1313/episode5/" class="page-link">
+                    <span aria-hidden="true">&larr;</span>
+                    Previous</a>
+                </li>
+                
+              
+                <li class="page-item">
+                  <a href="http://localhost:1313/episode7/" class="page-link">Next
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                </li>
+                
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+    
+</div> 
+<div class = "container bottom_container">
+  <div class="row">
+  <div class="col-md-12">
+    <nav class = "navbar navbar-default navbar_footer">
+    <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <p class = "footer_copyright">Copyright © 2021 <a href="https://techdebtburndown.com">Tech Debt Burndown</a></p>
+        </li>
+      
+      <li>
+        &nbsp;
+      </li>
+    </ul>
+  </nav>
+
+  </div>
+</div>
+</div>
+<script src='http://localhost:1313/js/castanet-min.js'></script>
+<script>
+    $("#share").jsSocials({
+        shares: [
+      {
+        share: "facebook",
+        logo: "fab fa-facebook",
+      },
+      {
+        share: "twitter",           
+        label: "Tweet",             
+        logo: "fab fa-twitter",
+        
+          via: "TechDebtPodcast",       
+        
+        url: "http:\/\/localhost:1313\/episode6\/",
+        text: "Tech Debt Burndown Podcast Episode 6: The Flow"
+      },
+      {
+        share: "linkedin",
+        logo: "fab fa-linkedin"
+      },
+      {
+        share: "pinterest",
+        logo: "fab fa-pinterest"
+      }
+    ],
+    });
+</script>
+
+<script>
+  $(document).ready(function() {
+
+    $('.transcript').hide();
+    $(".hide_transcript").hide();
+    $(".hide_transcript").click(function () {
+    $(".transcript").hide("fast");
+    $(".show_transcript").show();
+    $(".hide_transcript").hide();
+   });
+
+    $(".show_transcript").click(function () {
+    $(".transcript").show(500);
+    $(".hide_transcript").show();
+    $(".show_transcript").hide();
+   });
+
+  });
+
+</script>
+
+<script>
+  var player = new MediaElementPlayer('player2', {
+      features: ['playpause', 'current', 'progress', 'duration', 'volume','speed'],
+      defaultSpeed: 1.0,
+      
+  });
+</script>
+
+
+
+
+
+
+</body>
+</html>
+

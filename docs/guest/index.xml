@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guests of Tech Debt Burndown on Tech Debt Burndown Podcast</title>
+    <link>http://localhost:1313/guest/</link>
+    <description>Recent content in Guests of Tech Debt Burndown on Tech Debt Burndown Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Mar 2021 16:23:48 +0000</lastBuildDate><atom:link href="http://localhost:1313/guest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olivier Jacques</title>
+      <link>http://localhost:1313/guest/olivier/</link>
+      <pubDate>Sat, 15 May 2021 16:37:22 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/olivier/</guid>
+      <description>A technology enthusiast and DevOps transformation principal at DXC Technology, Olivier Jacques specializes in DevOps, software engineering, inner source and open source practices. He created DXC&amp;rsquo;s DevOps dojos, events and practices that combine training with hands-on labs, gamification with badges, and guidance from DevOps coaches. Olivier is a frequent speaker at DevOps and software engineering conferences.</description>
+    </item>
+    
+    <item>
+      <title>Eoin Woods</title>
+      <link>http://localhost:1313/guest/eoin/</link>
+      <pubDate>Sat, 15 May 2021 16:11:55 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/eoin/</guid>
+      <description>Eoin Woods has worked in software engineering of some sort for 20 years. He&amp;rsquo;s been lucky enough to work for a number of great companies during that time, including Groupe Bull, Sybase, InterTrust, Zuhlke, BGI and UBS. He has also been an independent consultant, which was another good experience.
+Today, Eoin is the CTO of Endava, the fast growing software engineering services company. Endava builds software for other people, with most of their projects being in the areas of digital and agile transformation and business and IT automation.</description>
+    </item>
+    
+    <item>
+      <title>Charity Majors</title>
+      <link>http://localhost:1313/guest/charity/</link>
+      <pubDate>Sat, 15 May 2021 15:52:45 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/charity/</guid>
+      <description>Charity Majors is an operations and database engineer and sometimes engineering manager. “Right now I am the CEO and cofounder of Honeycomb, where we build observability for distributed systems. (“Monitoring” doesn’t have to be a dirty word; give us a try.)
+“Until recently I was a production engineering manager at Facebook. I spent 3.5 years working on Parse (both pre and post-acquisition by FB). I also spent several years at Linden Lab, working on the infrastructure and databases that power Second Life.</description>
+    </item>
+    
+    <item>
+      <title>Bill Pelletier</title>
+      <link>http://localhost:1313/guest/billp/</link>
+      <pubDate>Sat, 15 May 2021 15:34:22 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/billp/</guid>
+      <description>Bill Pelletier is currently the Enterprise Security Architect for a large healthcare payer in New England, covering all aspects of security for their on-prem, cloud, and hybrid architectures. Previous roles in his career include heading up Product and Strategy at Scope Security, a startup in the Healthcare Delivery Organization Managed Security space – and as a Product Security Leader at GE Healthcare, working with CT, PET, Mammography, and X-Ray engineering teams in ensuring that new medical devices were being made more secure by design as well as in ongoing operations.</description>
+    </item>
+    
+    <item>
+      <title>Kenn White</title>
+      <link>http://localhost:1313/guest/kenn/</link>
+      <pubDate>Sat, 15 May 2021 15:27:25 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/kenn/</guid>
+      <description>Kenneth White is a security engineer whose work focuses on networks and global systems. He is co-founder and Director of the Open Crypto Audit Project and led formal security reviews on TrueCrypt and OpenSSL. He currently leads applied encryption engineering in MongoDB&amp;rsquo;s global product group. He has directed R&amp;amp;D and security Ops in organizations ranging from startups to nonprofits to defense agencies to the Fortune 50. His work on applied signal analysis has been published in the Proceedings of the National Academy of Sciences.</description>
+    </item>
+    
+    <item>
+      <title>Ian Amit</title>
+      <link>http://localhost:1313/guest/iamit/</link>
+      <pubDate>Sun, 11 Apr 2021 09:56:50 -0400</pubDate>
+      
+      <guid>http://localhost:1313/guest/iamit/</guid>
+      <description>Ian is the Chief Security Officer at Cimpress. He used to be a Senior Manager of Security Engineering at Amazon AWS, and prior to that held leadership positions with ZeroFOX, IOActive, Aladdin, Finjan and Comsec. He currently serves on the Advisory Board for ZeroFOX, Axon Cyber, Panorays and Marshall University. He also serves on the board of directors of BSides Las Vegas as a general director and President. Ian has had the pleasure to talk at the most sought-after conferences in the field such as BlackHat, DefCon, BlueHat, InfoSecurity, and more&amp;hellip; He has been frequently interviewed by leading pring and web magazines and news outlets, speaking about web security, eCrime, and technology (see this pagefor a chronological sampler).</description>
+    </item>
+    
+    <item>
+      <title>Wendy Nather</title>
+      <link>http://localhost:1313/guest/wnather/</link>
+      <pubDate>Mon, 22 Mar 2021 16:25:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/guest/wnather/</guid>
+      <description>Wendy Nather is Head of the Advisory CISO team at Duo Security (now Cisco). She was previously the Research Director at the Retail ISAC, as well as Research Director of the Information Security Practice at independent analyst firm 451 Research. Nather led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), and served as CISO of the Texas Education Agency. She is co-author of The Cloud Security Rules and was listed as one of SC Magazine&amp;rsquo;s Women in IT Security &amp;ldquo;Power Players&amp;rdquo; in 2014, as well as an &amp;ldquo;Influencer&amp;rdquo; in the Reboot Leadership Awards in 2018.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html itemscope lang="en-us">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers.">
+
+<meta name="generator" content="Hugo 0.83.1" />
+
+<meta property="og:title" content="Tech Debt Burndown Podcast Episode 7: Enabling and Regulating" />
+<meta name="twitter:title" content="Tech Debt Burndown Podcast Episode 7: Enabling and Regulating"/>
+<meta itemprop="name" content="Tech Debt Burndown Podcast Episode 7: Enabling and Regulating">
+<meta property="article:published_time" content="2021-05-15T12:22:13-04:00" />
+<meta property="article:modified_time" content="2021-05-15T12:22:13-04:00" />
+<meta property="og:updated_time" content="2021-05-15T12:22:13-04:00" /><meta property="og:site_name" content="Tech Debt Burndown Podcast" /><meta property="og:description" content="Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers." />
+    <meta name="twitter:description" content="Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers." />
+    <meta itemprop="description" content="Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers."><meta name="twitter:site" content="@TechDebtPodcast"/>
+<meta name="twitter:creator" content="@TechDebtPodcast"/>
+<meta name="twitter:domain" content="techdebtburndown.com"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/episode7/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+        <meta property="og:image" content="http://localhost:1313//img/TDB-Logo.jpg" />
+        <meta name="twitter:image" content="http://localhost:1313//img/TDB-Logo.jpg"/>
+        <meta itemprop="image" content="http://localhost:1313//img/TDB-Logo.jpg" />
+    
+
+
+
+
+<title>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</title>
+<link rel="canonical" href="http://localhost:1313/episode7/">
+
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+
+
+
+
+
+
+
+
+
+<link href="http://localhost:1313/css/blue.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
+
+<link href=http://localhost:1313/css/all.css rel="stylesheet">
+<link href=http://localhost:1313/css/mediaelementplayer.min.css rel="stylesheet">
+<style>
+    .mejs__overlay-button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__overlay-loading-bg-img {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__button > button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    </style>
+<link href=http://localhost:1313/css/speed.min.css rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="Tech Debt Burndown Podcast" href="http://localhost:1313/episode/index.xml"/>
+
+</head>
+
+<body lang="">
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand" href="http://localhost:1313/">Tech Debt Burndown Podcast</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbarSupportedContent" class="navbar-collapse collapse">
+      <ul class="navbar-nav mr-auto">
+          
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/about" class="nav-link">
+                    
+                    <span>About</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/discussions" class="nav-link">
+                    
+                    <span>Discussions</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/guest" class="nav-link">
+                    
+                    <span>Guests</span>
+                </a>
+              </li>
+            
+          
+        </ul>
+
+
+      <ul class="navbar-nav ml-auto">
+        
+        
+          <li>
+            <a class = "social-links" href="https://twitter.com/TechDebtPodcast"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+        
+        
+        
+        
+          <li>
+            <a class = "social-links" href="https://github.com/Tech-Debt-Burndown"><i class="fab fa-github-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+      </ul>
+  </div>
+  </div>
+  </nav>
+
+<div class="container middle_container">
+  
+
+  <div class="row">
+    <div class="col">      
+      
+        <h1>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</h1>
+      <small>Posted on Saturday, May 15, 2021 
+
+
+</small></div>
+  </div>
+
+  
+    <div class="row">
+          <div class="col-md-3">
+            <img src="http://localhost:1313/img/TDB-Logo.jpg" class="img-fluid episode_image"/>
+          </div>
+          <div class="col-md-8">
+            Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&rsquo;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers.
+          </div>
+        </div>
+    <div class="row">
+          <div class="col-md-12 player_row">
+
+          <audio id="player2" style="width: 100%" controls preload="none">
+            <source src="https://api.spreaker.com/v2/episodes/44843787/play.mp3" type="audio/mp3">
+            </audio>
+          </div>
+        </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Show Notes</h2>
+      <h3 id="what-do-enabling-teams-look-like-and-can-we-avoid-tech-debt-in-the-medical-device-industry">What Do Enabling-Teams Look Like, and Can We Avoid Tech Debt in the Medical Device Industry? </h3>
+<p><strong>Recording date: May 3 and 8, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<h4 id="there-were-monkeys-that-were-nesting-in-the-satellite-dish---kenn">&lsquo;There were monkeys that were nesting in the satellite dish.&rsquo; - Kenn</h4>
+<p>In a private Twitter chat, Nick and Kenn White, who leads applied encryption engineering in <a href="https://www.mongodb.com/">MongoDB</a>, were discussing tech debt burndown, and Kenn mentioned that Mongo maintains an entire team to remove distractions and handle barriers to engineer happiness. So this episode, Kenn joins Chris and Nick to talk about that, because Chris had been mentioning enabling teams in the past couple of episodes.</p>
+<p>Mongo recognized that when something takes one person two or three or four hours of frustration, that&rsquo;s real money when you&rsquo;re talking about three or four or 500 engineers. The Developer Productivity Team at Mongo set out to assure that everyone has on day one a fully functioning and configured Linux laptop, with all the tools, libraries, permissions, etc., that they will need on day one. This includes wikis and internal resources.</p>
+<p>That &ldquo;get out of the engineers' way&rdquo; approach is what Chris has been describing, and this is a real life example. Kenn mentioned 10,000 to 20,000 hours of testing on every build, so it&rsquo;s expensive if a build fails. The way Mongo has approached this supports that kind of environment. This extends down to &ldquo;I can&rsquo;t make Ruby 3.6 work on this particular Linux flavor&rdquo; and the enabling team will tackle those kinds of problems.</p>
+<p>But when we sought answers on metrics, they seem to elude Mongo as much as anyone else, saying that metrics are divorced from real productivity; Kenn boils doing what works down to what makes engineers happy. That&rsquo;s not a bad metric. He says that the trick for his teams has been post mortems on every major project to find the tar pits and management pains in the butt, the lack of approvals (he puts a lot of emphasis on getting expense reports reimbursed quickly, which is another one we like), etc., and those lessons are iteratively applied.</p>
+<p>The group began to follow a thread that had begun pre-show, about Kenn&rsquo;s early jobs re-factoring cardiac monitoring software, but went off on a tangent that, while interesting (to us), was off topic. Which is where the quote about monkeys nesting in the satellite dishes, above, came out (it was a story about on-the-ground realities in an African networking project).</p>
+<p>But Chris and Nick were very interested in medical device manufacturing issues: if you&rsquo;re in an industry that is heavily regulated to the extent that you can&rsquo;t make changes to anything once launched, and at the same time, the industry makes machines that can spend decades in the doctors' offices. How do you avoid tech debt if it is almost mandated by the law?</p>
+<p>To answer this, we brought in Bill Pelletier, who has tons of experience in exactly this area.</p>
+<p>Bill sets out a recent history of medical device manufacturing from custom hardware and waterfall processes through Software as a Medical Device and today&rsquo;s builds. Once you peel back the fancy, shiny cover from a computerized tomography (CT) scanner, you are going to find commercial off the shelf, hardware, nothing special about it, and in many cases it is running off-the-shelf software operating systems, which is fine right up to the moment you put a network jack on it.</p>
+<p>That gets us into the meat of the problem: testing systems for these devices are designed for these big monolithic, all-encompassing, &ldquo;test everything&rdquo; processes which just doesn&rsquo;t make economic sense in the new paradigm. Enter, over the past five or six years, the Software as a Medical Device. No longer constrained to this older hardware model, we were one step closer to more readily available software updates, using agile methodologies - but the testing regimes are still a huge barrier. This has led to the rise in recent years for calls for better software bills of materials, and pushes to require manufacturers to identify every software component with a standard taxonomy so that users can know immediately what&rsquo;s inside.</p>
+<p>THe discussion turns to the realities of this struggle to balance security and software concerns with those of patient safety that, ironically, is often better maintained sticking with the known state - as in many critical environments, the bias is toward saying with the known good because the cost of being wrong is so high.</p>
+
+    </div>
+  </div>
+
+
+
+  
+        <div class="row">
+          <div class="col">
+            <h2>Guests</h2>
+          </div>
+        </div>
+            
+              <div class="row person_row">
+                  <div class="col-md-3"><img alt="Kenn White" src="http://localhost:1313/img/guest/kenn.jpg" class="img-fluid" width="250px"></div>
+                  <div class="col-md-8">
+                    <h2><a href = "http://localhost:1313/guest/kenn/">Kenn White</a> </h2>
+                    <p>Kenneth White is a security engineer whose work focuses on networks and global systems. He is co-founder and Director of the Open Crypto Audit Project and led formal security reviews on TrueCrypt and OpenSSL. He currently leads applied encryption engineering in MongoDB&rsquo;s global product group. He has directed R&amp;D and security Ops in organizations ranging from startups to nonprofits to defense agencies to the Fortune 50. His work on applied signal analysis has been published in the Proceedings of the National Academy of Sciences. He created software powering the largest clinical trial and cardiac safety research networks in the world. His work on network security and forensics has been cited by the Wall Street Journal, Reuters, Wired, and the BBC.</p>
+<a href="https://twitter.com/kennwhite">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                      </a></div>
+                  </div>
+
+                
+            
+              <div class="row person_row">
+                  <div class="col-md-3"><img alt="Bill Pelletier" src="http://localhost:1313/img/guest/awpiii.jpg" class="img-fluid" width="250px"></div>
+                  <div class="col-md-8">
+                    <h2><a href = "http://localhost:1313/guest/billp/">Bill Pelletier</a> </h2>
+                    <p>Bill Pelletier is currently the Enterprise Security Architect for a large healthcare payer in New England, covering all aspects of security for their on-prem, cloud, and hybrid architectures. Previous roles in his career include heading up Product and Strategy at Scope Security, a startup in the Healthcare Delivery Organization Managed Security space – and as a Product Security Leader at GE Healthcare, working with CT, PET, Mammography, and X-Ray engineering teams in ensuring that new medical devices were being made more secure by design as well as in ongoing operations. Prior to dedicating his career to the healthcare space, Bill was the Enterprise Security Architect for the Personal lines business unit of Liberty Mutual Insurance.</p>
+<a href="https://twitter.com/awpiii">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                      </a><a href="https://github.com/awpiii">
+                        <i class="fab fa-github-square fa-2x"></i>
+                      </a><a href="https://www.linkedin.com/in/awpiii/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                      </a><a href="https://www.pinterest.com/awpiii">
+                        <i class="fab fa-pinterest-square fa-2x"></i>
+                      </a></div>
+                  </div>
+
+                
+            
+  
+
+  
+  <div class="row">
+    <div class="col">
+      <h2>Hosts</h2>
+    </div>
+  </div>
+      
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Chris Swan" src="http://localhost:1313/img/host/cswan.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/cswan/">Chris Swan</a> </h2>
+              <p>Chris is a frequent speaker on topics such as serverless, DevOps, cloud, containers, security, networking and the Internet of Things. He’s also a cloud editor for InfoQ and a contributor to open source projects such as Docker, CoreOS and DXC’s Online DevOps Dojo.</p>
+<a href="https://chris.swanz.net/">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/cpswan">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/cpswan">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/chrisswan/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Nick Selby" src="http://localhost:1313/img/host/nselby3.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/nselby/">Nick Selby</a> </h2>
+              <p>Nick is Chief Security Officer at a financial technology firm, and was formerly an NYPD Intelligence Bureau apparatchik. He is co-author of many books, including <a href="https://www.amazon.com/Cyber-Attack-Survival-Manual-Apocalypse/dp/1681886545/ref=sr_1_2">Cyber Attack Survival Manual</a>; <a href="https://www.amazon.com/Context-Understanding-Killings-Unarmed-Civilians/dp/0980181704/ref=sr_1_3?dchild=1&amp;qid=1618257220&amp;">In Context: Understanding Police Killings of Unarmed Civilians</a> and <a href="https://www.amazon.com/Blackhatonomics-Inside-Look-Economics-Cybercrime-ebook/dp/B00AMZZQW0/ref=sr_1_6?dchild=1&amp;qid=1618257220">Blackhatonomics: An Inside Look at the Economics of Cybercrime</a>.</p>
+<a href="https://authory.com/NickSelby">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/fuzztech">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/nselby">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/nickselby/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+
+
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <div id="share"></div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div id="giscus_thread"></div>
+
+<script src="https://giscus.vercel.app/client.js"
+        data-repo="ojacques/TDBwebsite"
+        data-repo-id="368269118"
+        data-category-id="General"
+        data-mapping="pathname"
+        data-theme="light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://giscus.vercel.app/">comments powered by Giscus.</a></noscript>
+<a href="https://giscus.vercel.app/" class="dsq-brlink">comments powered by <span class="logo-disqus">Giscus</span></a>
+
+        </div>
+      </div>
+      
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <nav>
+            <ul class="pagination">
+              
+                <li class="page-item">
+                  <a href="http://localhost:1313/episode6/" class="page-link">
+                    <span aria-hidden="true">&larr;</span>
+                    Previous</a>
+                </li>
+                
+              
+                <li class="page-item disabled">
+                  <a href="#" class="page-link">Next
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                </li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+    
+</div> 
+<div class = "container bottom_container">
+  <div class="row">
+  <div class="col-md-12">
+    <nav class = "navbar navbar-default navbar_footer">
+    <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <p class = "footer_copyright">Copyright © 2021 <a href="https://techdebtburndown.com">Tech Debt Burndown</a></p>
+        </li>
+      
+      <li>
+        &nbsp;
+      </li>
+    </ul>
+  </nav>
+
+  </div>
+</div>
+</div>
+<script src='http://localhost:1313/js/castanet-min.js'></script>
+<script>
+    $("#share").jsSocials({
+        shares: [
+      {
+        share: "facebook",
+        logo: "fab fa-facebook",
+      },
+      {
+        share: "twitter",           
+        label: "Tweet",             
+        logo: "fab fa-twitter",
+        
+          via: "TechDebtPodcast",       
+        
+        url: "http:\/\/localhost:1313\/episode7\/",
+        text: "Tech Debt Burndown Podcast Episode 7: Enabling and Regulating"
+      },
+      {
+        share: "linkedin",
+        logo: "fab fa-linkedin"
+      },
+      {
+        share: "pinterest",
+        logo: "fab fa-pinterest"
+      }
+    ],
+    });
+</script>
+
+<script>
+  $(document).ready(function() {
+
+    $('.transcript').hide();
+    $(".hide_transcript").hide();
+    $(".hide_transcript").click(function () {
+    $(".transcript").hide("fast");
+    $(".show_transcript").show();
+    $(".hide_transcript").hide();
+   });
+
+    $(".show_transcript").click(function () {
+    $(".transcript").show(500);
+    $(".hide_transcript").show();
+    $(".show_transcript").hide();
+   });
+
+  });
+
+</script>
+
+<script>
+  var player = new MediaElementPlayer('player2', {
+      features: ['playpause', 'current', 'progress', 'duration', 'volume','speed'],
+      defaultSpeed: 1.0,
+      
+  });
+</script>
+
+
+
+
+
+
+</body>
+</html>
+

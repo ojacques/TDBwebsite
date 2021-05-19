@@ -1,0 +1,422 @@
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    >
+  <channel>
+    <title>Tech Debt Burndown Podcast</title>
+    <atom:link href="http://localhost:1313/episode/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+    <description>summary</description>
+    <lastBuildDate>Sat, 15 May 2021 12:22:13 -0400</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>en-us</language>
+    <copyright></copyright>
+    <itunes:subtitle>subtitle</itunes:subtitle>
+    <itunes:author>Nick Selby and Chris Swan</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <googleplay:author>Nick Selby and Chris Swan</googleplay:author>
+    <googleplay:email>chris@techdebtburndown.com</googleplay:email>
+    <itunes:summary>summary</itunes:summary>
+    <googleplay:description>summary</googleplay:description>
+    <itunes:owner>
+      <itunes:name>Chris Swan</itunes:name>
+      <itunes:email>chris@techdebtburndown.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://techdebtburndown.com/img/TDB-Logo.jpg" />
+    <googleplay:image href="https://techdebtburndown.com/img/TDB-Logo.jpg"></googleplay:image>
+    <image>
+      <url>https://techdebtburndown.com/img/TDB-Logo.jpg</url>
+      <title>Tech Debt Burndown Podcast</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" /><itunes:category text="Tech News" /></itunes:category><generator>Hugo -- gohugo.io</generator>
+        <item>          
+          
+            <title>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</title>
+          
+          <link>http://localhost:1313/episode7/</link>
+          <pubDate>Sat, 15 May 2021 12:22:13 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44843787/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Podcast Episode 7: Enabling and Regulating</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges...
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers.</itunes:summary>
+        <description>Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers.</description>
+        <googleplay:description>Chris and Nick welcome Kenn White, from MongoDB, to discuss Mongo&#39;s enabling teams and how they cut through the BS to help engineers stay in the flow and be happier. Then they welcome Bill Pelletier, to talk about some of the unique challenges faced by medical device and Software as a Medical Device makers.</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="what-do-enabling-teams-look-like-and-can-we-avoid-tech-debt-in-the-medical-device-industry">What Do Enabling-Teams Look Like, and Can We Avoid Tech Debt in the Medical Device Industry? </h3>
+<p><strong>Recording date: May 3 and 8, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<h4 id="there-were-monkeys-that-were-nesting-in-the-satellite-dish---kenn">&lsquo;There were monkeys that were nesting in the satellite dish.&rsquo; - Kenn</h4>
+<p>In a private Twitter chat, Nick and Kenn White, who leads applied encryption engineering in <a href="https://www.mongodb.com/">MongoDB</a>, were discussing tech debt burndown, and Kenn mentioned that Mongo maintains an entire team to remove distractions and handle barriers to engineer happiness. So this episode, Kenn joins Chris and Nick to talk about that, because Chris had been mentioning enabling teams in the past couple of episodes.</p>
+<p>Mongo recognized that when something takes one person two or three or four hours of frustration, that&rsquo;s real money when you&rsquo;re talking about three or four or 500 engineers. The Developer Productivity Team at Mongo set out to assure that everyone has on day one a fully functioning and configured Linux laptop, with all the tools, libraries, permissions, etc., that they will need on day one. This includes wikis and internal resources.</p>
+<p>That &ldquo;get out of the engineers' way&rdquo; approach is what Chris has been describing, and this is a real life example. Kenn mentioned 10,000 to 20,000 hours of testing on every build, so it&rsquo;s expensive if a build fails. The way Mongo has approached this supports that kind of environment. This extends down to &ldquo;I can&rsquo;t make Ruby 3.6 work on this particular Linux flavor&rdquo; and the enabling team will tackle those kinds of problems.</p>
+<p>But when we sought answers on metrics, they seem to elude Mongo as much as anyone else, saying that metrics are divorced from real productivity; Kenn boils doing what works down to what makes engineers happy. That&rsquo;s not a bad metric. He says that the trick for his teams has been post mortems on every major project to find the tar pits and management pains in the butt, the lack of approvals (he puts a lot of emphasis on getting expense reports reimbursed quickly, which is another one we like), etc., and those lessons are iteratively applied.</p>
+<p>The group began to follow a thread that had begun pre-show, about Kenn&rsquo;s early jobs re-factoring cardiac monitoring software, but went off on a tangent that, while interesting (to us), was off topic. Which is where the quote about monkeys nesting in the satellite dishes, above, came out (it was a story about on-the-ground realities in an African networking project).</p>
+<p>But Chris and Nick were very interested in medical device manufacturing issues: if you&rsquo;re in an industry that is heavily regulated to the extent that you can&rsquo;t make changes to anything once launched, and at the same time, the industry makes machines that can spend decades in the doctors' offices. How do you avoid tech debt if it is almost mandated by the law?</p>
+<p>To answer this, we brought in Bill Pelletier, who has tons of experience in exactly this area.</p>
+<p>Bill sets out a recent history of medical device manufacturing from custom hardware and waterfall processes through Software as a Medical Device and today&rsquo;s builds. Once you peel back the fancy, shiny cover from a computerized tomography (CT) scanner, you are going to find commercial off the shelf, hardware, nothing special about it, and in many cases it is running off-the-shelf software operating systems, which is fine right up to the moment you put a network jack on it.</p>
+<p>That gets us into the meat of the problem: testing systems for these devices are designed for these big monolithic, all-encompassing, &ldquo;test everything&rdquo; processes which just doesn&rsquo;t make economic sense in the new paradigm. Enter, over the past five or six years, the Software as a Medical Device. No longer constrained to this older hardware model, we were one step closer to more readily available software updates, using agile methodologies - but the testing regimes are still a huge barrier. This has led to the rise in recent years for calls for better software bills of materials, and pushes to require manufacturers to identify every software component with a standard taxonomy so that users can know immediately what&rsquo;s inside.</p>
+<p>THe discussion turns to the realities of this struggle to balance security and software concerns with those of patient safety that, ironically, is often better maintained sticking with the known state - as in many critical environments, the bias is toward saying with the known good because the cost of being wrong is so high.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44843787/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Podcast Episode 6: The Flow</title>
+          
+          <link>http://localhost:1313/episode6/</link>
+          <pubDate>Sat, 08 May 2021 10:54:31 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44711673/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Podcast Episode 6: The Flow</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines....
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies.</itunes:summary>
+        <description>Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies.</description>
+        <googleplay:description>Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. Pipelines themselves can be a place where we accrue tech debt - even at the entry point to those pipelines. So let&#39;s look at branching strategies.</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="what-does-your-pipeline-look-like">What Does Your Pipeline Look Like? </h3>
+<p><strong>Recording date: May 1, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<h4 id="people-often-escape-from-a-role-before-decisions-they-have-made-have-a-chance-to-catch-up-to-them---chris">&lsquo;People often escape from a role before decisions they have made have a chance to catch up to them.&rsquo; - Chris</h4>
+<p>Let&rsquo;s talk about pipeline. Lots of things get improved by building continuous delivery pipelines and then going back to them and iteratively making improvements. But Chris thinks that pipelines themselves can be a place where we accrue tech debt, even at the entry point to those pipelines.</p>
+<p>So, Chris has been looking at branching strategies.</p>
+<p>If you look at open source development, people agree that trunk based strategies are the way to go, so we&rsquo;re taking short terms branches or forks off a trunk, but coming back to it quickly. But engineers from an enterprise background have a range of versions across different customers. This quickly runs to vast differences between versions, and lots of tech debt.</p>
+<p>What suffers? Updates like security patches, and the engineers, who have to work across a multitude of branches as opposed to being on a constant edge of the trunk version, is pure tech debt.</p>
+<p>Nick mentioned that this seems to point back to engineer flow - if your engineers can&rsquo;t get into the groove because they&rsquo;ve got no institutional memory and they have to constantly figure out where they are in order to fix things, they&rsquo;re actually creating tech debt while thy are addressing old tech debt!</p>
+<p>It&rsquo;s interesting to think how we got here, but it&rsquo;s true that, because people move around the industry, people, Chris notes, often leave a role before decisions they have made have a chance to catch up to them. So, decision logging becomes super important. But outside the code itself, the log and commit log that people add are critical pieces of context for the next people.</p>
+<p>All too often, though, they say things like, &ldquo;Merge to master&rdquo; or the dreaded, &ldquo;Fixes&rdquo;.</p>
+<p>After that, the readme and changelogs that go with things should tell a story, but there&rsquo;s a more macro scale look at decisions people make: what were the tradeoffs that people had in mind when they made their decisions? This is absolutely critical to know. Because when we make decisions, thinking we can back out of them&lt; we sometimes find ourselves in architectural cul de sacs.</p>
+<p>The conversation turns to <a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm">Type 1-Type 2 decisions</a> which Jeff Bezos began to discuss back in 1997. Nick gives as an example of what&rsquo;s intended to be a reversible decision the log pipeline that his teams are working on. Chris Mentioned that pipeline engineering may seem to be less worthy work done, but Chris and Nick both feel that pipeline enabling work is among the most important in an organization.</p>
+<p>In carrying on the new tradition of references related to what we&rsquo;re discussing, Chris comes up with two important areas of research: <a href="https://redmonk.com/jgovernor/author/jgovernor/">James Governor</a>&rsquo;s work on RedMonk about <a href="https://redmonk.com/jgovernor/2018/08/06/towards-progressive-delivery/">Progressive Delivery</a>, and Netflix&rsquo;s work on <a href="https://netflixtechblog.com/tagged/chaos-engineering">Chaos Engineering</a>.</p>
+<p>Nick mentioned also the <a href="https://github.com/slsa-framework/slsa">SLSA: Supply-chain Levels for Software Artifacts</a> proposal, which is an amazing project available now on GitHub. The SLSA (pronounced &lsquo;Salsa&quot;) project is &ldquo;inspired&rdquo; by how Google does things (and has been at least updated by at least <a href="https://www.gitmemory.com/MarkLodato">some</a> <a href="https://github.com/kimsterv">people</a> who <a href="https://twitter.com/lorenc_dan">work</a> at Google), and ultimately will have a full set of standards, a catalog of <a href="https://github.com/slsa-framework/slsa-controls">technical controls</a>, and a process for accreditation - but for now it&rsquo;s a diabolically useful set of principles and definitions that are really worth a lot of time.</p>
+<p>One major point of the project is to be able to know and be certain about the provenance of code at every stage of the pipeline - at the very least to be able to attest to the sanctity of code, but also to, say, stop unauthorized people from being able to insert code into codebases (Heloooooo, <a href="https://www.reuters.com/technology/codecov-hackers-breached-hundreds-restricted-customer-sites-sources-2021-04-19/">Codecov Hackers</a>!). Nick and his colleagues have begun to use SLSA as a great way - at a very minimum - to agree on a taxonomy and lexicon, and as milestones on their journey. Chris and Nick agreed that SLSA should be an episode in its own right, hopefully with a guest involved in its management to discuss it (hint, nudge, wink).</p>
+<p>The episode concludes with a pivot to a blog post by Signal&rsquo;s <a href="https://signal.org/blog/cellebrite-vulnerabilities/">Moxie Marlinspike</a> who took on the mobile device forensics company Cellebrite. Cellebrite had earlier claimed it had &ldquo;broken&rdquo; Signal encryption, which was utter balderdash. In the information security community, the document quickly was called the Moxie Manifesto but it should be read as nothing short of a declaration of war against Cellebrite. Cellebrite customers (like law enforcement) are casualties of the war.</p>
+<p>Moxie shot back with what may be mistaken for a lighthearted report but which is both ruthless and credible based on his demonstrated exploitation of a Cellebrite box:</p>
+<ul>
+<li>Cellebrite uses very old software components as it assembles its tools, and has been lax about security patches for years;</li>
+<li>This is very plausible because the threat model faced by a Cellebrite box is one of someone with physical access to the box</li>
+<li>Cellebrite uses unlicensed components, with specific example of Apple Dynamic Link Library files; and</li>
+<li>Moxie claims that &ldquo;Industry-standard exploit mitigation defenses are missing, and many opportunities for exploitation are present&rdquo;</li>
+</ul>
+<p>Chris and Nick were both very interested by the manifesto and think it will be have a long tail.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44711673/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Podcast Episode 5: The Metrics</title>
+          
+          <link>http://localhost:1313/episode5/</link>
+          <pubDate>Sun, 02 May 2021 00:00:00 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44593888/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Podcast Episode 5: The Metrics</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        How do you measure technical debt? This week, Chris and Nick discuss the metrics around technical debt, and why there are so few of them.
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>How do you measure technical debt? This week, Chris and Nick discuss the metrics around technical debt, and why there are so few of them.</itunes:summary>
+        <description>How do you measure technical debt? This week, Chris and Nick discuss the metrics around technical debt, and why there are so few of them.</description>
+        <googleplay:description>How do you measure technical debt? This week, Chris and Nick discuss the metrics around technical debt, and why there are so few of them.</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="how-do-you-measure-tech-debt-what-are-the-metrics-that-work">How Do You Measure Tech Debt? What Are The Metrics That Work?</h3>
+<p><strong>Recording date: March, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<h4 id="i-think-its-really-less-about-wasted-time-and-more-about-getting-into-flow-state-is-your-tech-debt-preventing-flow-from-happening---chris">&lsquo;I think it&rsquo;s really less about wasted time, and more about getting into flow state: is your tech debt preventing flow from happening?&rsquo; - Chris</h4>
+<p>How do you measure technical debt? What are the metrics you use?</p>
+<p>Chris hasn&rsquo;t found the magic formula. Over the past few years Chris has been acutely aware of the quote from <a href="https://www.amazon.com/dp/B07B9F83WM/ref=dp-kindle-redirect">Accelerate</a> about not trying to inflict metrics on people before the culture change happens, they&rsquo;ll game the metrics. Nick agrees, and also says he has the basic problem that coming up with the right metrics is hard.</p>
+<p>They agree that time is a really bad one: trying to quantify tech debt around the time you spend on it actualy doesn&rsquo;t work (though it&rsquo;s not worthless).</p>
+<p>Some organizations build a bit of burndown into every sprint, but Chris isn&rsquo;t seeing that widespread - but Nick says that after about a year, his shop <em>is</em> finding ways to do just that.</p>
+<p>It took a year of seeing the results of concerted bursts of burndown, and a company-wide Objective and Key Result (OKR) on Trustworthiness. One challenge he has is that it&rsquo;s hard to tie in the minds of senior executives information security (which is what Nick does) to availability and scalability as opposed to firewalls. But his colleagues are making great progress.</p>
+<p>Nick thinks the most useful thing he&rsquo;s done in the past year is to embed engineers, developers, SREs and security people into standups as often as possible to try and find the overlapping interests. And that has led to some success around thing together tech debt they need to code around and the performance of engineering squads.</p>
+<p>Chris spent a bunch of time recently looking at Chaos engineering and how to introduce it into what they do, but he&rsquo;s finding that if you&rsquo;ve not already got to the stage where you can do good quality progressive engineering you&rsquo;re just not ready to do Chaos engineering. Similarly, Nick thinks that applies to Eng teams that find themselves working harder but not having a commensurate increase in productivity.</p>
+<p>What Chris sees in the bottom 50% of companies is related to a <a href="https://twitter.com/mipsytipsy/status/1270676644965957633">Charity Majors</a> comment that they have the engine underwater and they have to work ever harder to see that they need to do something to drain the water that is flooding you.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">(i feel like that explains the lower 50% of the dora report 💔 they are bailing water out of the boat with all their might but not as fast as the water is coming in through the holes, so they never get the engine out of where it is submerged and cannot start up) <a href="https://t.co/X2Izh53tex">pic.twitter.com/X2Izh53tex</a></p>&mdash; Charity Majors (@mipsytipsy) <a href="https://twitter.com/mipsytipsy/status/1270676644965957633?ref_src=twsrc%5Etfw">June 10, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>When technical people have to talk to non-technical people about this, people who are smart but don&rsquo;t see the tradeoffs in feature development, the non-tech people don&rsquo;t understand the tradeoffs. Not that they don&rsquo;t want to understand, but that they don&rsquo;t see it. so the quest for metrics is really about finding Indicators Of Tech Debt.</p>
+<p>Chris points out that time is bad as a measure because for engineers, it&rsquo;s really less about time and more about getting into flow state: is your tech debt preventing flow from happening?</p>
+<p>He mentions this is related to cognitive load, and that he&rsquo;s been following the work of <a href="https://teamtopologies.com">Team Topologies</a>, whose principles <a href="https://teamtopologies.com/people">Matthew Skelton and Manuel Pais</a> have been spending years with organizations starting the DevOps topologies, finding patterns and anti-patterns and how work flows betwen those teams. They feel teams need to be organized to minimize cognitive load.</p>
+<p>It seems to be about putting boundaries around the members of teams so that they can actually apply their brain power to the problem at hand in the context of their work, and Chris thinks we can start to reason is that tech debt is adding a constant cognitive load that everyone has to deal with.</p>
+<p>This is a self-inflicted wound: rather than just doing a task, they have to remember oral histories of &ldquo;when you&rsquo;re trying to make something in this environment, here are the 24 undocumented things you have to look out for or they will bite you.&rdquo;</p>
+<p>Nick and Chris raise the idea that tech debt is not necessarily just &ldquo;old stuff&rdquo; because mainframes are just often not tech debt, because they still work.</p>
+<p>Tech debt is more tied to the fragility of environments.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44593888/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security</title>
+          
+          <link>http://localhost:1313/episode4/</link>
+          <pubDate>Sat, 24 Apr 2021 09:14:23 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44467944/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo...
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast.</itunes:summary>
+        <description>When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast.</description>
+        <googleplay:description>When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast.</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="what-works-in-security-the-cisco-security-outcomes-study">What Works in Security? The Cisco Security Outcomes Study</h3>
+<p><strong>Recording date: December, 2020</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<p>Chris and Nick welcome their old friend <a href="https://blogs.cisco.com/author/wendynather">Wendy Nather</a>, Head of Advisory CISOs at Duo Security (now Cisco), to the podcast to discuss her work on the <a href="https://duo.com/resources/ebooks/security-outcomes-study-cisco-secure">Cisco Security Outcomes Study</a>. Now, technical debt isn&rsquo;t only about security, but they&rsquo;re related - and one of this report&rsquo;s most solid conclusions addresses it specifically.</p>
+<p>When Wendy began her work at The 451 Group (now <a href="https://451research.com">451 Research</a>), she started asking her CISO friends questions: &lsquo;If you&rsquo;ve just taken a CISO job at a company that had no security, what would you buy?&rsquo; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study.</p>
+<p>Security professionals are great at doing benchmarks, but it turns out that our peers may just be bad at security.</p>
+<p>So for this report, Wendy and her team sought a correlation between things we struggle with in security practices, and the outcomes of the programs they run to address those.</p>
+<p>The research was completely technology and vendor free. They queried security professionals (using YouGov to run the surveys) from around the world about their security practices across 25 areas, then brought in <a href="https://www.cyentia.com/finally-a-properly-sampled-security-survey/">Wade Baker</a>&rsquo;s team from Cyentia to analyze the data.</p>
+<p>The methodology is actually one of the best things about the report, because it is decidedly, simply put, <a href="https://www.cisco.com/c/en/us/products/security/security-outcomes-study.html">not bullshit</a>.</p>
+<p>The study was double-blind, with 4800 respondents not knowing who was asking, and Cisco not knowing who was answering. The question was, &ldquo;What appears to correlate between security practices and outcomes?&rdquo;</p>
+<p>As a great study will do, it raises more questions than it answers, but it also is a report that, by applying analytic rigor at the problem, it is just a great report.</p>
+<p>Nick points out that there are several issues that security pros take as gospel are just not true. We won&rsquo;t spoil it but tropes about people who own compliance, people who own apps, security awareness, identification of the top cyber risks &hellip; All of these have very interesting real-world correlations to results.</p>
+<h4 id="meeting-compliance-regulations">Meeting Compliance Regulations</h4>
+<p>As it turned out, for example, having someone own compliance turned out to not be correlated with better compliance results, but just buying new IT gear raised the likelihood of success in meeting compliance goals by more than eight percent. Other activities correlated with better compliance outcomes included well-integrated tech, timely incident response, having a sound security strategy, and setting deadlines for remediating vulnerabilities&hellip; There&rsquo;s lots more.</p>
+<p>Chris points out that this makes sense: those programs mentioned in having a positive correlative outcome are all about reaching across the organization and speaking with people.</p>
+<h4 id="the-two-practices-that-most-strongly-correlate">The Two Practices That Most Strongly Correlate</h4>
+<p>Wendy is quite sensitive to the idea that the two practices identified as most likely to correlate to better outcomes, Proactive Tech Refresh and Well Integrated Technology, are of course seen by the more skeptical of us to have been directly driven by the fact that Cisco is a vendor of that stuff. Wendy insists (and Wade has insisted) that the double-blind nature of the survey administration and the analysis means that it actually was independently learned, not sponsored. We believe it. Wade tweeted about it recently:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2/2 My answer is always the same: A third party survey firm fielded the study, respondents didn’t know Cisco sponsored it, and <a href="https://twitter.com/cyentiainst?ref_src=twsrc%5Etfw">@cyentiainst</a> did the analysis to obtain that funding. I’m sure they like the outcome but they didn’t influence it. Get the study: <a href="https://t.co/ffYkfyhrf1">https://t.co/ffYkfyhrf1</a></p>&mdash; Wade Baker (@wadebaker) <a href="https://twitter.com/wadebaker/status/1386029061273751552?ref_src=twsrc%5Etfw">April 24, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Also, the survey didn&rsquo;t ask, &lsquo;Do you think buying new stuff makes stuff better?&rsquo; they asked separate questions. The correlations were stronger than they thought.</p>
+<h4 id="what-works">What Works?</h4>
+<p>But Chris happens to think that a lot of this is hogwash. Chris thinks that, as an example, tech refresh is already built in to the market (because virtualization and cloud), but Nick points out that Chris has lived five years in the future as long as Nick has known Chris, which is 16 years. He said that Chris, Wendy, and Nick have been very lucky, but that most people don&rsquo;t have the ability to have contemporary kit and work in environments where spinning disks are still the norm.</p>
+<p>Nick also pointed out that &ldquo;IT Refresh&rdquo; is unclear - do we mean servers and firewalls, or laptops and printers? And Wendy pointed out that the questions were in fact vague: we don&rsquo;t know whether the question means any or all of those things. Which supports the idea that a tech vendor didn&rsquo;t put its thumb on the scale for this question.</p>
+<h4 id="sentiment">Sentiment</h4>
+<p>Chris speculates that people who feel good about their company will say more positive things here. And there is a real discussion about whether shinier MacBooks help with talent retention and compliance success.</p>
+<p>Wendy says that some of this seems obvious, but some isn&rsquo;t. How getting sufficient budget helps with executive buy in may well be a circular argument.</p>
+<p>Or take Identify Top Cyber Risks. That feels outlandish to Chris, who would have thought it would seem that identifying the top risks you face would be top of the list, and it turns out to be worthless.</p>
+<p>We think that the podcast is a good listen (well, we <em>would</em>) and that the report is absolutely worth a read.</p>
+<p>We especially like that the report is available to read with <a href="https://www.cisco.com/c/dam/en/us/products/collateral/security/2020-outcomes-study-main-report.pdf">no registration required</a>.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44467944/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Episode 3: Supply Chain Vulnerability &amp; Tech Debt</title>
+          
+          <link>http://localhost:1313/episode3/</link>
+          <pubDate>Sun, 18 Apr 2021 00:00:00 -0500 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44372957/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Episode 3: Supply Chain Vulnerability &amp; Tech Debt</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        We&#39;ve been hearing about Supply Chain vulnerabilities quite a bit lately, from Solar Winds to CodeCov. How do these relate to technical debt? Ah, that&#39;s a complicated question, because each of its components are discussing complex things. In...
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>We&#39;ve been hearing about Supply Chain vulnerabilities quite a bit lately, from Solar Winds to CodeCov. How do these relate to technical debt? Ah, that&#39;s a complicated question, because each of its components are discussing complex things. In this episode, Chris and Nick try to hash it out and sort through what&#39;s important.</itunes:summary>
+        <description>We&#39;ve been hearing about Supply Chain vulnerabilities quite a bit lately, from Solar Winds to CodeCov. How do these relate to technical debt? Ah, that&#39;s a complicated question, because each of its components are discussing complex things. In this episode, Chris and Nick try to hash it out and sort through what&#39;s important.</description>
+        <googleplay:description>We&#39;ve been hearing about Supply Chain vulnerabilities quite a bit lately, from Solar Winds to CodeCov. How do these relate to technical debt? Ah, that&#39;s a complicated question, because each of its components are discussing complex things. In this episode, Chris and Nick try to hash it out and sort through what&#39;s important.</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="where-do-you-start-looking-for-tech-debt">Where do you start looking for tech debt?</h3>
+<p><strong>Recording date: April 17, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<p>This is a common question, and Chris and Nick discovered that they do it differently.</p>
+<p>Chris describes how he views tech debt from the perspective of his continuous integration and continuous delivery pipeline: “How quickly can I release, and what’s getting in my way?” He discussed that recently, <a href="https://twitter.com/mipsytipsy">Charity Majors</a> has been discussing the importance of a quick feedback cycle for developers:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">people really do leave their jobs over build times. i am not making this up. <br><br>the impact your deploy pipeline has on developer productivity and happiness is HARDCORE. <a href="https://t.co/z49xUxXWsk">https://t.co/z49xUxXWsk</a></p>&mdash; Charity Majors (@mipsytipsy) <a href="https://twitter.com/mipsytipsy/status/1382619734781272066?ref_src=twsrc%5Etfw">April 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<p>Basically, this comes down to, ‘you’ve got 15 minutes to build’ in order to be good at this, and this brings us to the <a href="https://en.wikipedia.org/wiki/Theory_of_constraints" title="The theory of constraints (TOC) is a management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints. - Wikipedia">Theory of Constraints</a> thing: what things are blocking me from getting to that 15-minute build time, and how do I get rid of them?</p>
+<p>Nick says he comes at this from a more traditional infosec approach, basically, how do I get in, how do I move around? Chris points out that this reveals two prevalent schools of thought in the industry when it comes to building software: “How do I make this work?” and, “How do I break this?”</p>
+<p>How do we make it work leads to “How do I make this resilient”</p>
+<p>Both of these approaches seem to meet up at resilience, which brings us to the broader conversion about software dependencies and dependencies management, which itself is based on the fact that today,</p>
+<h4 id="software-is-mostly-assembled-as-opposed-to-being-constructed-fresh-from-a-clean-sheet-of-paper---chris">&ldquo;software is mostly assembled as opposed to being constructed fresh from a clean sheet of paper.&rdquo; &ndash;Chris</h4>
+<p>As we go about that process, we need to get open source, and buy tools, and many are pretty janky - and the janky tool is the one that gets you.</p>
+<p>Chris thinks there is better tooling coming, and Nick is far more skeptical of that.</p>
+<p>This gets into the fact that libraries get poorly maintained or abandoned and can in fact be taken over by malevolent actors, and now a trusted source is pushing malware.</p>
+<p>Everyone understands that but to what extent do you have proper insight to what you’re assembling?</p>
+<p>Supply chain breaches are top of the pops. But what are supply chain breaches?</p>
+<h4 id="whats-going-on">What’s going on?</h4>
+<p>Supply chain attacks happen when people get into these dependencies, which are then incorporated, or they get into the build chain to insert software that shouldn’t be there.</p>
+<p>They can also be broader than just development operations, attacking necessary business tools that the company uses as a whole.</p>
+<p>Probably the earliest great example of this that we remember is the <a href="https://www.wired.com/2011/08/how-rsa-got-hacked/">RSA SecureID breach of 2011</a>. Chris remembers that the term Advanced Persistent Threat was particularly bogus, because it isn&rsquo;t the threat, it&rsquo;s the attacker that is sophisticated and advanced (Nick throws in a plug for an article he and <a href="https://451research.com/analyst-team/analyst/Scott+Crawford">Scott Crawford</a> wrote in January, 2010 called, &lsquo;<a href="https://threatpost.com/its-iadversariesi-who-are-advanced-and-persistent-012610/73426/">It&rsquo;s The Adversaries That Are Advanced and Persistent</a>')</p>
+<p>But there’s been a change in dynamics in the past few years - where it felt like the entire SecureID breach targeted Lockheed Martin, now it feels like “stage the attack first and then choose your targets&quot; rather than choose your target and then stage your attack.</p>
+<p>If we are a contemporary software company or even a business, and we’ve done the right thing by outsourcing the stuff that isn’t our core competency, we find that there’s lots of stuff that isn’t everyone’s core competency - email servers, ticketing systems, remote helpdesk.</p>
+<p>So even though we all use a much more diverse set of universal tools, each tool in its category is just as much a single point-of-failure as was SecureID - we all use the same instant messenger, the same ticketing system, the same what-have-you, so targeting can be conducted on an industry vertical-level by attacking a tool that horizontally attacks the whole industry.</p>
+<p>How do we protect ourselves against these third party risks?</p>
+<p>Spreadsheets.</p>
+<p>Chris talks about the Hyperscalers like cloud and the starting point of the <a href="https://aws.amazon.com/compliance/shared-responsibility-model/">Shared Responsibility Model</a> in which security and compliance are the shared responsibility between the hyperscaler and the customer.</p>
+<p>We’re now at a point where we rely on the Hyperscalers like AWS for security.</p>
+<p>Nick points out, though, that AWS has a different idea about what “secure” means from its customers - them being secure is just not the same as us being secure, and Chris rightly points out that this is the other side of the shares security model. But the point of handover is sometimes unclear to the customer.</p>
+<p>Many things that should be done are best practices are not enabled by Amazon by default, and this is a huge issue, which Chris points out is completely right and behind the idea that we read the dunderheaded thing of the week every week in <a href="https://twitter.com/QuinnyPig">Corey Quinn</a>’s <a href="https://www.lastweekinaws.com/">Last Week In AWS</a> newsletter.</p>
+<p>But if you want the audit trail, you need to flip the bit that starts the taxi meter to fill your other S3 bucket with logs.</p>
+<h4 id="adversaries-have-okrs-too">Adversaries Have OKR’s, Too</h4>
+<p>In looking at attacks, it’s important to realize that attackers will always seek the path of least resistance as they target you - and often these days the path of least resistance is the tool. Chris mentions another Economics of Information Security Paper, <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/WhereDoAllTheAttacksGo.pdf" title="Where Do All The Attacks Go, by Dinei Florencio and Cormac Herley, Microsoft Research: If security is so awful, why isn't everyone attacked every day? Economics.">Where Do All The Attacks Go?</a> in which the question is asked, &lsquo;If security is so awful, why isn&rsquo;t everyone attacked every day?&rsquo; and the answer of course is that even attacker groups have bosses to please and budgets to live up to. Targeting is hard.</p>
+<h4 id="threat-model-your-supply-chain-tools">Threat Model Your Supply Chain Tools</h4>
+<p>So the idea to use supply chain attacks being in the news is to use them to justify the time it takes to consider something: given a supply chain attack against our CI/CD tool, what permissions would it have, and how can you follow those permissions throughout your CI/CD pipeline.</p>
+<p>All too often we bring in these external tools to cover up what we&rsquo;re not good at, which would be fine if they were better than they actually are. Threat modeling through a theoretical supply chain breach can help you identify new forms of tech debt.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44372957/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Episode 2: Ian Amit</title>
+          
+          <link>http://localhost:1313/episode2/</link>
+          <pubDate>Sun, 11 Apr 2021 16:01:03 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44295022/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Episode 2: Ian Amit</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        Episode 2: Ian Amit of Cimpress
+        
+        ]]></itunes:subtitle>
+        <itunes:summary>Episode 2: Ian Amit of Cimpress</itunes:summary>
+        <description>Episode 2: Ian Amit of Cimpress</description>
+        <googleplay:description>Episode 2: Ian Amit of Cimpress</googleplay:description>
+        <content:encoded><![CDATA[<h3 id="you-cant-kill-all-the-tech-debt-you-cant-stay-completely-up-to-date-or-there-wont-be-a-business">&ldquo;You can&rsquo;t kill all the tech debt; you can&rsquo;t stay completely up to date or there won&rsquo;t be a business.&rdquo;</h3>
+<h3 id="-ian">-<em>Ian</em></h3>
+<p><strong>Recording date: February 6, 2021</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<p>We had a great conversation with Ian about how he runs a rather different kind of information security operation that can be described as a group of companies reporting up to one security organization for strategy, but which each support their own individual needs day to day.</p>
+<p>Ian Amit spent most of his career in information security, with a lot of time on the offensive side. He spent some years as a senior manager at AWS, and in the past few years he has been Chief Security office at <a href="https://cimpress.com">Cimpress</a>, which runs a collection of independent businesses whose CISOs report up to Ian, who is kind of the supervisory CSO - this set up is most similar to that of GE&rsquo;s.</p>
+<p>Some of the smaller firms have no CISO, and Ian then serves as their de facto CISO, and the larger brands - most notably including <a href="https://vistaprint.com">VistaPrint</a>. And Technical debt is primarily Ian&rsquo;s responsibility - he and Nick have discussed it quite a bit over the years, and Ian was pivotal in a presentation Nick made, <a href="https://corncon.net/2020-presentations/#nselby">Tech Debt Burndown: Kill It With Fire</a> which he presented at <a href="https://corncon.net/2020.corncon.agenda.html">CornCon VI: The Return of the Cyber Jedi 2021</a>.</p>
+<p>Nick asked about whether there was a difference between security tech debt and technical debt.</p>
+<p>Ian thinks Tech Debt is Tech Debt, but that it has a lot of security repercussions.</p>
+<p>Accrual of tech debt gunks up the business operation and also opens up the company to additional risk.</p>
+<p>Chris observed that old stuff has known vulnerabilities, new stuff might have vulns but only the most sophisticated attackers are going to find the 0days, But in terms of staying atop patching, how much does it relate to testability of the environment?</p>
+<p>Ian says that&rsquo;s something he thinks about a lot - known knowns versus unknown unknowns. He tries to let the business decision guide the way - not to discount security, but prioritization matters. Tech debt by itself is not a problem, it is only one after you view it in the context of how it might affect the business.</p>
+<p>It may be OK to carry a certain tech debt indefinitely if it isn&rsquo;t slowing the business. The exercise is to get the right stakeholders to really understand what they need and what our stack delivers.</p>
+<p>Nick was wonders whether Ian was hired with tch debt as  a guiding principle, which may mean the executives actually understood this before he got there. That&rsquo;s rare. And also, what is Ian doing with metrics?</p>
+<p>Ian agreed that the executives had a lot of tech debt, lots of companies with different histories - Vista Print is more than 20 years old and Cimpress' newest firm is two years old. They realized this was critical to success and growth. So the executives wanted someone who understood how to harmonize all these varying challenges, and Ian and management realized that technical debt burndown was central to the effort.</p>
+<p>Ian&rsquo;s approach to metrics is an interactive look at what is there and how it&rsquo;s being burned: both at the tail end (what is there out there that might bite me), and revisit our fresh decisions to be cognizant of repercussions they may have on tech debt accrual.</p>
+<p>This gibes with Ian&rsquo;s quote at the top of the page here, and he added the other quote of his that we love: &ldquo;Tech debt is not a project; technical debt is a process.&rdquo;</p>
+<p>Ian says he went through the herky-jerky attempt - start fresh, groan on until you can&rsquo;t proceed anymore, stop everything to burn it down - so often that he realized it just has to be embedded into every sprint.</p>
+<p>It can&rsquo;t just be the security people&rsquo;s job to chase it down - everyone in DevOps has to embed this into their processes.</p>
+<p>Ian would rather talk of code quality than secure code: if our code sucks, it is also fragile and insecure.</p>
+<p>Chris raised that some of this is the way we deal with the Red Queen, that it&rsquo;s a choice between a steady pace, or occasionally stopping for a breather which means we need to run even after we rest.</p>
+<p>Ian agrees, and recognizes that we have to adapt to the business needs. We need to run faster than the Red Queen, to run ahead and clear the path, and sometimes to drift behind in case she changes course.</p>
+<p>With regard to SSDLC, which requires software development, and people discuss &ldquo;shift left&rdquo; - forget that. How do you start the conversation about technical debt before the PRD is done, before the design doc?
+How do you get business people to understand the full cost of new tools or features before you even start building?</p>
+<p>Ian refers to lifetime ownership of the code, and when devs understand that they are responsible for the whose lifecycle of the product they tend to make better decisions at the top that will allow them to support what they build throughout its life.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44295022/play.mp3"  type="audio/mpeg" /><itunes:explicit>false</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit></item>
+        <item>          
+          
+            <title>Tech Debt Burndown Episode 1: What Is Tech Debt?</title>
+          
+          <link>http://localhost:1313/episode1/</link>
+          <pubDate>Sun, 11 Apr 2021 10:52:27 -0400 </pubDate>
+          <dc:creator></dc:creator>
+          <guid>https://api.spreaker.com/v2/episodes/44292452/play.mp3</guid>
+          <itunes:author>
+            
+            
+              Chris Swan 
+              
+                    and Nick Selby</itunes:author>
+          
+        <itunes:title>Tech Debt Burndown Episode 1: What Is Tech Debt?</itunes:title>
+        <itunes:subtitle><![CDATA[
+        
+        
+        
+        ]]></itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <description></description>
+        <googleplay:description></googleplay:description>
+        <content:encoded><![CDATA[<h4 id="what-is-technical-debt-nick-and-chris-offer-their-definitions-despite-agreeing-there-is-no-right-answer">What is technical debt? Nick and Chris offer their definitions, despite agreeing there is no right answer.</h4>
+<p><strong>Recording date: December 6, 2020</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<p>Nick thinks it is the stuff we put off in favor of things we want to do*, while Chris quotes <a href="https://en.wikipedia.org/wiki/Ward_Cunningham">Ward Cunningham</a> and <a href="https://martinfowler.com">Martin Fowler</a>, summarizing that technical debt is  basically the quick and dirty fixes that incur interest payments, and using the concepts of tech debt to describe problems faced over time.</p>
+<p>A chat about &ldquo;shift left&rdquo; or moving earlier in the SDLC, which boils down to the human factors of tech debt accrual.</p>
+<p>Nick mentions a collection of moments in which decisions are made to do the scalable thing or do the fun thing. Chris points out these concepts apply to both <a href="https://en.wikipedia.org/wiki/Waterfall_model" title="The waterfall model is a breakdown of project activities into linear sequential phases, where each phase depends on the deliverables of the previous one and corresponds to a specialisation of tasks- Wikipedia">Waterfall</a> and <a href="https://en.wikipedia.org/wiki/Agile_software_development" title="Agile practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customers/end users - Wikipedia">Agile</a> approaches, and invokes <a href="https://twitter.com/psd">Paul Downey</a> in his discussion of when decisions get made and how they are addressed.</p>
+<p>When should it be addressed? Why do organizations schedule huge tech debt burndowns as opposed to building in TDB to every sprint (Nick quotes, but forgets to credit, <a href="https://techdebtburndown.com/guest/iamit/">Ian Amit</a>, and this quote is covered in <a href="https://techdebtburndown.com/episode2/">Episode 2</a>), and Nick quotes <a href="https://www.philvenables.com/about">Phil Venables</a> who tweeted that we should measure tech debt in the terms of what percentage of dev time is spent on this.</p>
+<p>Which leads Chris to ask about what metrics are right. How do you calibrate information about doing it quick versus doing it right?</p>
+<h4 id="how-hard-are-these-problems">How hard are these problems?</h4>
+<p>From engineering time to executive buy in, these are critical issues. We can&rsquo;t tell you the monetary value of not scaling a thing, and that is a huge issue.</p>
+<ul>
+<li>Audits are asking about technical debt and related issues. The questions are getting harder.</li>
+</ul>
+<p>Chris mentions that one if the issues that arises is what kinds of tech debt do we face? One of the ones he likes to focus on is policy debt, which is a fundamental type organizations face.</p>
+<p>This raises the issue of <em>policy over time</em>: in FinServ, most policies were written in the days of the moat and the gate, and they don&rsquo;t address contemporary, cloud native architectures.</p>
+<p>This brings in some of the human decisions we make.</p>
+<p>How do we answer questions about the interplay between policy and regulation, like the &ldquo;should we reset our passwords every 90 days&rdquo; question.</p>
+<p>Chris summarizes the three different global approaches to regulation.</p>
+<ul>
+<li>
+<p>Singaporean: very prescriptive.</p>
+</li>
+<li>
+<p>Anglo-American: Principle based, broad brush of expectations and relying on audit companies</p>
+</li>
+<li>
+<p>Swiss: More comparative: an expectation of participants in the marketplace to reach a certain standards.</p>
+</li>
+</ul>
+<p>Nick describes how US auditors are asking more about technical debt management, but they&rsquo;re not getting highly specific enough to differentiate betwen tech debt and the underlying policy debt which might drive it.</p>
+<p>When we told auditors that our main goals in security was to get rid of tech debt and the auditor asked whether I meant &lsquo;security tech debt&rsquo; or just plain old &lsquo;tech debt&rsquo; - what&rsquo;s the difference?</p>
+<p>Chris then discusses the <a href="https://en.wikipedia.org/wiki/Information_security" title="Information security's primary focus is the balanced protection of the confidentiality, integrity, and availability of data (also known as the CIA triad) while maintaining a focus on efficient policy implementation, all without hampering organization productivity. - Wikipedia">CIA triad</a> and talks about how we in Information Security seem to have abdicated the &lsquo;Availability&rsquo; part, then referred to a 2006 report called <a href="https://www.usenix.org/conference/15th-usenix-security-symposium/milk-or-wine-does-software-security-improve-age">Milk or Wine: Does Software Security Improve With Age</a> which is very pertinent.</p>
+<p>The discussion moves to tests: is there a vulnerability in the code, but the bigger aspects of debt include such paralysis that they can&rsquo;t change anything, because they don&rsquo;t have the test coverage to know whether a fix here will affect something unintended there?</p>
+<p><em>So test coverage and testability must be part of a strategy to address tech debt.</em></p>
+<p>We in the industry are constantly talking &ldquo;secure by design,&rdquo; &ldquo;shift left,&rdquo; and the like, but what does this mean in practicality? So, if we are starting a software project today, what are we going to do differently now from last year?</p>
+<p>Nick describes his firm&rsquo;s Squad Security Liaison program, which is designed to foster inter-disciplinary teamwork by making introductions between engineers and security people on a regular basis, to encourage interaction and collaboration. It means they know one another before problems exist, so relationships are there when something goes wrong.</p>
+<p>This podcast is all about learning!</p>
+<hr>
+<p>* Wendy Nather disagrees with &ldquo;want&rdquo;.</p>
+]]></content:encoded><itunes:image href="http://localhost:1313/img/TDB-Logo.jpg"></itunes:image>
+          <googleplay:image href="http://localhost:1313/img/TDB-Logo.jpg"></googleplay:image><enclosure url="https://api.spreaker.com/v2/episodes/44292452/play.mp3"  type="audio/mpeg" /></item></channel>
+</rss>

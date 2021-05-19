@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html itemscope lang="en-us">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast.">
+
+<meta name="generator" content="Hugo 0.83.1" />
+
+<meta property="og:title" content="Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security" />
+<meta name="twitter:title" content="Tech Debt Burndown Episode 4: Wendy Nather on What Works In Security"/>
+<meta itemprop="name" content="Tech Debt Burndown Episode 4: Wendy Nather on What Works In Security">
+<meta property="article:published_time" content="2021-04-24T09:14:23-04:00" />
+<meta property="article:modified_time" content="2021-04-24T09:14:23-04:00" />
+<meta property="og:updated_time" content="2021-04-24T09:14:23-04:00" /><meta property="og:site_name" content="Tech Debt Burndown Podcast" /><meta property="og:description" content="When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast." />
+    <meta name="twitter:description" content="When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast." />
+    <meta itemprop="description" content="When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &#39;If you just took a CISO job at a company that had no security, what would you buy?&#39; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&#39;s podcast."><meta name="twitter:site" content="@TechDebtPodcast"/>
+<meta name="twitter:creator" content="@TechDebtPodcast"/>
+<meta name="twitter:domain" content="techdebtburndown.com"/>
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/episode4/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+        <meta property="og:image" content="http://localhost:1313//img/episode/default-social.jpg" />
+        <meta name="twitter:image" content="http://localhost:1313//img/episode/default-social.jpg"/>
+        <meta itemprop="image" content="http://localhost:1313//img/episode/default-social.jpg" />
+    
+
+
+
+
+<title>Tech Debt Burndown Episode 4: Wendy Nather on What Works In Security</title>
+<link rel="canonical" href="http://localhost:1313/episode4/">
+
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+
+
+
+
+
+
+
+
+
+<link href="http://localhost:1313/css/blue.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+
+
+<link href=http://localhost:1313/css/all.css rel="stylesheet">
+<link href=http://localhost:1313/css/mediaelementplayer.min.css rel="stylesheet">
+<style>
+    .mejs__overlay-button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__overlay-loading-bg-img {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    .mejs__button > button {
+        background-image: url("/img/mejs-controls.svg");
+    }
+    </style>
+<link href=http://localhost:1313/css/speed.min.css rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="Tech Debt Burndown Podcast" href="http://localhost:1313/episode/index.xml"/>
+
+</head>
+
+<body lang="">
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand" href="http://localhost:1313/">Tech Debt Burndown Podcast</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div id="navbarSupportedContent" class="navbar-collapse collapse">
+      <ul class="navbar-nav mr-auto">
+          
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/about" class="nav-link">
+                    
+                    <span>About</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/discussions" class="nav-link">
+                    
+                    <span>Discussions</span>
+                </a>
+              </li>
+            
+          
+            
+                <li class= "nav-item ">
+                <a href="http://localhost:1313/guest" class="nav-link">
+                    
+                    <span>Guests</span>
+                </a>
+              </li>
+            
+          
+        </ul>
+
+
+      <ul class="navbar-nav ml-auto">
+        
+        
+          <li>
+            <a class = "social-links" href="https://twitter.com/TechDebtPodcast"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+        
+        
+        
+        
+          <li>
+            <a class = "social-links" href="https://github.com/Tech-Debt-Burndown"><i class="fab fa-github-square fa-2x"></i></a>
+          </li>
+        
+        
+        
+      </ul>
+  </div>
+  </div>
+  </nav>
+
+<div class="container middle_container">
+  
+
+  <div class="row">
+    <div class="col">      
+      
+        <h1>Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security</h1>
+      <small>Posted on Saturday, Apr 24, 2021 
+
+
+</small></div>
+  </div>
+
+  
+    <div class="row">
+          <div class="col-md-3">
+            <img src="http://localhost:1313/img/TDB-Logo.jpg" class="img-fluid episode_image"/>
+          </div>
+          <div class="col-md-8">
+            When Wendy Nather began work as an information security analyst, she started asking her CISO friends a question: &lsquo;If you just took a CISO job at a company that had no security, what would you buy?&rsquo; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study. Wendy discusses the process on this week&rsquo;s podcast.
+          </div>
+        </div>
+    <div class="row">
+          <div class="col-md-12 player_row">
+
+          <audio id="player2" style="width: 100%" controls preload="none">
+            <source src="https://api.spreaker.com/v2/episodes/44467944/play.mp3" type="audio/mp3">
+            </audio>
+          </div>
+        </div>
+
+  <div class="row">
+    <div class="col">
+      <h2>Show Notes</h2>
+      <h3 id="what-works-in-security-the-cisco-security-outcomes-study">What Works in Security? The Cisco Security Outcomes Study</h3>
+<p><strong>Recording date: December, 2020</strong></p>
+<p><em>Download at <a href="https://podcastsconnect.apple.com/my-podcasts/the-tech-debt-burndown-podcast/1562710899">Apple Podcasts</a>, <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDg3MzE4MC9lcGlzb2Rlcy9mZWVk">Google Podcasts</a>, <a href="https://open.spotify.com/show/0t15PUgvQYNWQ6LYXJ8zkz">Spotify</a>, <a href="https://iheart.com/podcast/81137852">iHeartRadio</a>, <a href="https://www.spreaker.com/show/the-tech-debt-burndown-podcast">Spreaker</a> or wherever you get your podcasts.</em></p>
+<p>Chris and Nick welcome their old friend <a href="https://blogs.cisco.com/author/wendynather">Wendy Nather</a>, Head of Advisory CISOs at Duo Security (now Cisco), to the podcast to discuss her work on the <a href="https://duo.com/resources/ebooks/security-outcomes-study-cisco-secure">Cisco Security Outcomes Study</a>. Now, technical debt isn&rsquo;t only about security, but they&rsquo;re related - and one of this report&rsquo;s most solid conclusions addresses it specifically.</p>
+<p>When Wendy began her work at The 451 Group (now <a href="https://451research.com">451 Research</a>), she started asking her CISO friends questions: &lsquo;If you&rsquo;ve just taken a CISO job at a company that had no security, what would you buy?&rsquo; The answers fascinated her. Now at Duo (Cisco), she set out to formalize research that was released as Cisco Secure’s Security Outcomes Study.</p>
+<p>Security professionals are great at doing benchmarks, but it turns out that our peers may just be bad at security.</p>
+<p>So for this report, Wendy and her team sought a correlation between things we struggle with in security practices, and the outcomes of the programs they run to address those.</p>
+<p>The research was completely technology and vendor free. They queried security professionals (using YouGov to run the surveys) from around the world about their security practices across 25 areas, then brought in <a href="https://www.cyentia.com/finally-a-properly-sampled-security-survey/">Wade Baker</a>&rsquo;s team from Cyentia to analyze the data.</p>
+<p>The methodology is actually one of the best things about the report, because it is decidedly, simply put, <a href="https://www.cisco.com/c/en/us/products/security/security-outcomes-study.html">not bullshit</a>.</p>
+<p>The study was double-blind, with 4800 respondents not knowing who was asking, and Cisco not knowing who was answering. The question was, &ldquo;What appears to correlate between security practices and outcomes?&rdquo;</p>
+<p>As a great study will do, it raises more questions than it answers, but it also is a report that, by applying analytic rigor at the problem, it is just a great report.</p>
+<p>Nick points out that there are several issues that security pros take as gospel are just not true. We won&rsquo;t spoil it but tropes about people who own compliance, people who own apps, security awareness, identification of the top cyber risks &hellip; All of these have very interesting real-world correlations to results.</p>
+<h4 id="meeting-compliance-regulations">Meeting Compliance Regulations</h4>
+<p>As it turned out, for example, having someone own compliance turned out to not be correlated with better compliance results, but just buying new IT gear raised the likelihood of success in meeting compliance goals by more than eight percent. Other activities correlated with better compliance outcomes included well-integrated tech, timely incident response, having a sound security strategy, and setting deadlines for remediating vulnerabilities&hellip; There&rsquo;s lots more.</p>
+<p>Chris points out that this makes sense: those programs mentioned in having a positive correlative outcome are all about reaching across the organization and speaking with people.</p>
+<h4 id="the-two-practices-that-most-strongly-correlate">The Two Practices That Most Strongly Correlate</h4>
+<p>Wendy is quite sensitive to the idea that the two practices identified as most likely to correlate to better outcomes, Proactive Tech Refresh and Well Integrated Technology, are of course seen by the more skeptical of us to have been directly driven by the fact that Cisco is a vendor of that stuff. Wendy insists (and Wade has insisted) that the double-blind nature of the survey administration and the analysis means that it actually was independently learned, not sponsored. We believe it. Wade tweeted about it recently:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2/2 My answer is always the same: A third party survey firm fielded the study, respondents didn’t know Cisco sponsored it, and <a href="https://twitter.com/cyentiainst?ref_src=twsrc%5Etfw">@cyentiainst</a> did the analysis to obtain that funding. I’m sure they like the outcome but they didn’t influence it. Get the study: <a href="https://t.co/ffYkfyhrf1">https://t.co/ffYkfyhrf1</a></p>&mdash; Wade Baker (@wadebaker) <a href="https://twitter.com/wadebaker/status/1386029061273751552?ref_src=twsrc%5Etfw">April 24, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Also, the survey didn&rsquo;t ask, &lsquo;Do you think buying new stuff makes stuff better?&rsquo; they asked separate questions. The correlations were stronger than they thought.</p>
+<h4 id="what-works">What Works?</h4>
+<p>But Chris happens to think that a lot of this is hogwash. Chris thinks that, as an example, tech refresh is already built in to the market (because virtualization and cloud), but Nick points out that Chris has lived five years in the future as long as Nick has known Chris, which is 16 years. He said that Chris, Wendy, and Nick have been very lucky, but that most people don&rsquo;t have the ability to have contemporary kit and work in environments where spinning disks are still the norm.</p>
+<p>Nick also pointed out that &ldquo;IT Refresh&rdquo; is unclear - do we mean servers and firewalls, or laptops and printers? And Wendy pointed out that the questions were in fact vague: we don&rsquo;t know whether the question means any or all of those things. Which supports the idea that a tech vendor didn&rsquo;t put its thumb on the scale for this question.</p>
+<h4 id="sentiment">Sentiment</h4>
+<p>Chris speculates that people who feel good about their company will say more positive things here. And there is a real discussion about whether shinier MacBooks help with talent retention and compliance success.</p>
+<p>Wendy says that some of this seems obvious, but some isn&rsquo;t. How getting sufficient budget helps with executive buy in may well be a circular argument.</p>
+<p>Or take Identify Top Cyber Risks. That feels outlandish to Chris, who would have thought it would seem that identifying the top risks you face would be top of the list, and it turns out to be worthless.</p>
+<p>We think that the podcast is a good listen (well, we <em>would</em>) and that the report is absolutely worth a read.</p>
+<p>We especially like that the report is available to read with <a href="https://www.cisco.com/c/dam/en/us/products/collateral/security/2020-outcomes-study-main-report.pdf">no registration required</a>.</p>
+
+    </div>
+  </div>
+
+
+
+  
+        <div class="row">
+          <div class="col">
+            <h2>Guests</h2>
+          </div>
+        </div>
+            
+              <div class="row person_row">
+                  <div class="col-md-3"><img alt="Wendy Nather" src="http://localhost:1313/img/guest/wnather.jpg" class="img-fluid" width="250px"></div>
+                  <div class="col-md-8">
+                    <h2><a href = "http://localhost:1313/guest/wnather/">Wendy Nather</a> </h2>
+                    <p>Wendy Nather is Head of the Advisory CISO team at Duo Security (now Cisco). She was previously the Research Director at the Retail ISAC, as well as Research Director of the Information Security Practice at independent analyst firm 451 Research. Nather led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), and served as CISO of the Texas Education Agency. She is co-author of The Cloud Security Rules and was listed as one of SC Magazine&rsquo;s Women in IT Security &ldquo;Power Players&rdquo; in 2014, as well as an &ldquo;Influencer&rdquo; in the Reboot Leadership Awards in 2018. She serves on the advisory board for Sightline Security, an organization that helps non-profits improve their cybersecurity.</p>
+<a href="http://idoneous-security.blogspot.com/">
+                        <i class="fas fa-home fa-2x"></i>
+                      </a><a href="https://twitter.com/wendynather">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                      </a><a href="https://www.linkedin.com/in/wendynather/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                      </a></div>
+                  </div>
+
+                
+            
+  
+
+  
+  <div class="row">
+    <div class="col">
+      <h2>Hosts</h2>
+    </div>
+  </div>
+      
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Chris Swan" src="http://localhost:1313/img/host/cswan.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/cswan/">Chris Swan</a> </h2>
+              <p>Chris is a frequent speaker on topics such as serverless, DevOps, cloud, containers, security, networking and the Internet of Things. He’s also a cloud editor for InfoQ and a contributor to open source projects such as Docker, CoreOS and DXC’s Online DevOps Dojo.</p>
+<a href="https://chris.swanz.net/">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/cpswan">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/cpswan">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/chrisswan/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+        <div class="row person_row">
+            <div class="col-md-3"><img alt="Nick Selby" src="http://localhost:1313/img/host/nselby3.jpg" class="img-fluid" width="250px"></div>
+            <div class="col-md-8">
+              <h2><a href = "http://localhost:1313/host/nselby/">Nick Selby</a> </h2>
+              <p>Nick is Chief Security Officer at a financial technology firm, and was formerly an NYPD Intelligence Bureau apparatchik. He is co-author of many books, including <a href="https://www.amazon.com/Cyber-Attack-Survival-Manual-Apocalypse/dp/1681886545/ref=sr_1_2">Cyber Attack Survival Manual</a>; <a href="https://www.amazon.com/Context-Understanding-Killings-Unarmed-Civilians/dp/0980181704/ref=sr_1_3?dchild=1&amp;qid=1618257220&amp;">In Context: Understanding Police Killings of Unarmed Civilians</a> and <a href="https://www.amazon.com/Blackhatonomics-Inside-Look-Economics-Cybercrime-ebook/dp/B00AMZZQW0/ref=sr_1_6?dchild=1&amp;qid=1618257220">Blackhatonomics: An Inside Look at the Economics of Cybercrime</a>.</p>
+<a href="https://authory.com/NickSelby">
+                  <i class="fas fa-home fa-2x"></i>
+                </a><a href="https://twitter.com/fuzztech">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a><a href="https://github.com/nselby">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a><a href="https://www.linkedin.com/in/nickselby/">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a></div>
+            </div>
+
+
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <div id="share"></div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div id="giscus_thread"></div>
+
+<script src="https://giscus.vercel.app/client.js"
+        data-repo="ojacques/TDBwebsite"
+        data-repo-id="368269118"
+        data-category-id="General"
+        data-mapping="pathname"
+        data-theme="light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://giscus.vercel.app/">comments powered by Giscus.</a></noscript>
+<a href="https://giscus.vercel.app/" class="dsq-brlink">comments powered by <span class="logo-disqus">Giscus</span></a>
+
+        </div>
+      </div>
+      
+
+      <div class="row">
+        
+        <div class="col-md-12">
+          <nav>
+            <ul class="pagination">
+              
+                <li class="page-item">
+                  <a href="http://localhost:1313/episode3/" class="page-link">
+                    <span aria-hidden="true">&larr;</span>
+                    Previous</a>
+                </li>
+                
+              
+                <li class="page-item">
+                  <a href="http://localhost:1313/episode5/" class="page-link">Next
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                </li>
+                
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+    
+</div> 
+<div class = "container bottom_container">
+  <div class="row">
+  <div class="col-md-12">
+    <nav class = "navbar navbar-default navbar_footer">
+    <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <p class = "footer_copyright">Copyright © 2021 <a href="https://techdebtburndown.com">Tech Debt Burndown</a></p>
+        </li>
+      
+      <li>
+        &nbsp;
+      </li>
+    </ul>
+  </nav>
+
+  </div>
+</div>
+</div>
+<script src='http://localhost:1313/js/castanet-min.js'></script>
+<script>
+    $("#share").jsSocials({
+        shares: [
+      {
+        share: "facebook",
+        logo: "fab fa-facebook",
+      },
+      {
+        share: "twitter",           
+        label: "Tweet",             
+        logo: "fab fa-twitter",
+        
+          via: "TechDebtPodcast",       
+        
+        url: "http:\/\/localhost:1313\/episode4\/",
+        text: "Tech Debt Burndown Episode 4: Wendy Nather on What Works in Security"
+      },
+      {
+        share: "linkedin",
+        logo: "fab fa-linkedin"
+      },
+      {
+        share: "pinterest",
+        logo: "fab fa-pinterest"
+      }
+    ],
+    });
+</script>
+
+<script>
+  $(document).ready(function() {
+
+    $('.transcript').hide();
+    $(".hide_transcript").hide();
+    $(".hide_transcript").click(function () {
+    $(".transcript").hide("fast");
+    $(".show_transcript").show();
+    $(".hide_transcript").hide();
+   });
+
+    $(".show_transcript").click(function () {
+    $(".transcript").show(500);
+    $(".hide_transcript").show();
+    $(".show_transcript").hide();
+   });
+
+  });
+
+</script>
+
+<script>
+  var player = new MediaElementPlayer('player2', {
+      features: ['playpause', 'current', 'progress', 'duration', 'volume','speed'],
+      defaultSpeed: 1.0,
+      
+  });
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
